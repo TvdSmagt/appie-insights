@@ -1,0 +1,848 @@
+ah_subcategory,co2eq_category,co2eq_subcategory,co2eq_per_kg,notes
+0-6 maanden (zuigelingenvoeding),Zuivel,Melk,1.5,Infant formula — closest to milk
+AH Biologisch groene thee,Dranken,Thee,3.5,
+AH Biologisch kruidenthee,Dranken,Thee,3.5,
+AH groene thee,Dranken,Thee,3.5,
+AH kruidenthee,Dranken,Thee,3.5,
+AH zwarte thee,Dranken,Thee,3.5,
+Aardappelballetjes (diepvries),Plantaardig,Groente,0.5,Processed potato
+Aardappelgratin (diepvries),Plantaardig,Groente,0.7,Potato product
+Aardappelkroketten (diepvries),Plantaardig,Groente,0.7,Processed potato
+Aardappelpartjes (diepvries),Plantaardig,Groente,0.5,Potato product
+Aardappelschotel (diepvries),Plantaardig,Groente,0.6,Potato product
+Aardbeien,Plantaardig,Fruit,1.5,
+Aardbeienjam,Sauzen,Spread,1.5,
+Afbakbroodjes volkoren,Granen,Brood,0.8,
+Afbakbroodjes wit mix,Granen,Brood,0.9,
+Afbakbroodjes wit, mix,Granen,Brood,0.9,
+Aioli,Sauzen,Saus,2.0,
+Alcoholvrij IPA,Dranken,Bier,1.2,
+Alcoholvrij aperitieven,Dranken,Wijn,1.8,
+Alcoholvrij blond dubbel tripel,Dranken,Bier,1.2,
+Alcoholvrij blond, dubbel, tripel,Dranken,Bier,1.2,
+Alcoholvrij pils,Dranken,Bier,1.2,
+Alcoholvrij rose,Dranken,Wijn,1.8,
+Alcoholvrij wit weizen radler,Dranken,Bier,1.2,
+Alcoholvrij wit, weizen, radler,Dranken,Bier,1.2,
+Alcoholvrij witte wijn,Dranken,Wijn,1.8,
+Alledaagse koeken,Snoep,Koek,2.5,
+Amandel cashewdrink,Dranken,Zuiveldrank,0.7,Plant-based milk — overrides Plantaardig category
+Amandel, cashewdrink,Dranken,Zuiveldrank,0.7,Plant-based milk — overrides Plantaardig category
+Amandel- en cashewdrink,Dranken,Zuiveldrank,0.7,Plant-based milk — overrides Plantaardig category
+Amandelen,Plantaardig,Noten,3.0,
+Amsterdamse uien,Sauzen,Saus,2.0,Pickled onions
+Ananas,Plantaardig,Fruit,0.9,
+Ananas- en mango conserven,Plantaardig,Fruit,0.9,
+Andijvie,Plantaardig,Groente,0.4,
+Ansjovis (conserven),Vis,Bewerkt,5.0,
+Appelazijn,Sauzen,Saus,1.5,
+Appelmoes appelcompote,Sauzen,Spread,1.5,
+Appelmoes, appelcompote,Sauzen,Spread,1.5,
+Appels los,Plantaardig,Fruit,0.4,
+Appelsap drinkpakjes,Dranken,Sap,0.7,
+Appelsap en perensap,Dranken,Sap,0.7,
+Appelstroop,Sauzen,Spread,1.5,
+Artisjok,Plantaardig,Groente,0.7,
+Asperges,Plantaardig,Groente,1.3,
+Asperges (conserven),Plantaardig,Groente,1.3,
+Aspergesoep in zak,Sauzen,Soep,0.8,
+Aubergine,Plantaardig,Groente,0.8,
+Augurken,Sauzen,Saus,2.0,Pickles
+Avocado,Plantaardig,Fruit,2.5,
+Aziatische diepvries maaltijd,,,, Mixed — no reliable single CO2 category
+BBQ saus,Sauzen,Saus,2.0,
+Baby badschuim en doucheschuim,,,, Non-food
+Bak- en braadboter,Zuivel,Boter,14.0,
+Bak- en braadboter (vegan),Plantaardig,Plantaardige alternatieven,1.5,Plant-based baking fat
+Bakaroma sukade,Sauzen,Spread,1.5,Baking ingredient
+Bakaroma, sukade,Sauzen,Spread,1.5,Baking ingredient
+Bakdecoratie,Snoep,Chocolade,6.5,Sugar/chocolate decorations
+Bakkersbrood volkoren,Granen,Brood,0.8,
+Bakpoeder gist gelatine,,,, Baking agents — negligible CO2 per serving
+Bakpoeder, gist, gelatine,,,, Baking agents — negligible CO2 per serving
+Balsamico azijn,Sauzen,Saus,2.0,
+Bananen,Plantaardig,Fruit,0.9,
+Basmatirijst,Granen,Rijst,3.5,
+Belegde broodjes,Granen,Brood,0.9,
+Belegen kaas (plakken),Zuivel,Kaas,11.0,
+Belegen kaas (stuk),Zuivel,Kaas,11.0,
+Beschuit,Granen,Gebak,1.2,
+Bessensap en cranberrysap,Dranken,Sap,1.0,
+Bietjes (conserven),Plantaardig,Groente,0.4,
+Billendoekjes,,,, Non-food
+Bindmiddel,,,, Baking agent — negligible CO2 per serving
+Bitter lemon,Dranken,Frisdrank,0.4,
+Bitterballen (oven),Vlees,Bewerkt,8.0,Typically beef filling
+Blauwe bessen,Plantaardig,Fruit,0.7,
+Blauwe bessen (diepvries),Plantaardig,Fruit,0.7,
+Bleekselderij,Plantaardig,Groente,0.4,
+Bloemkool,Plantaardig,Groente,0.5,
+Blokjes spek (voorverpakt),Vlees,Varkensvlees,7.5,
+Blond bier,Dranken,Bier,1.2,
+Boemboe,Sauzen,Saus,2.0,Indonesian spice paste
+Borrel noten,Plantaardig,Noten,2.5,
+Borrel vleeswaren,Vlees,Bewerkt,8.0,
+Borrelballetjes,Snoep,Snacks,2.5,
+Borrelhapjes met vlees,Vlees,Bewerkt,8.0,
+Borrelhapjes warm vers,Snoep,Snacks,2.5,
+Borrelmix (oven),Snoep,Snacks,2.5,
+Boterhamworst (voorverpakt),Vlees,Bewerkt,8.0,
+Bouillonblokjes groenten,Sauzen,Soep,0.8,
+Bouillonblokjes kip,Sauzen,Soep,0.8,
+Bouillonblokjes vis,Sauzen,Soep,0.8,
+Bouillonblokjes vlees,Sauzen,Soep,0.8,
+Bramen,Plantaardig,Fruit,0.7,
+Brie,Zuivel,Kaas,10.0,
+Brioche suikerbrood,Granen,Brood,1.5,Enriched bread
+Brioche, suikerbrood,Granen,Brood,1.5,Enriched bread
+Broccoli,Plantaardig,Groente,0.6,
+Broccoli (diepvries),Plantaardig,Groente,0.6,
+Broodbeleg (dreumes en peuter),Sauzen,Spread,1.5,
+Broodje snack (oven),Granen,Brood,2.0,Has filling
+Broodmix,Granen,Brood,0.9,
+Burrata,Zuivel,Kaas,9.0,Fresh cheese
+Cabernet Sauvignon (Stevig),Dranken,Wijn,1.8,
+Cacaopoeder,Dranken,Koffie,8.0,Hot cocoa — cacao supply chain
+Cake,Granen,Gebak,3.0,Contains butter/eggs
+Cakemix,Granen,Gebak,3.0,
+Camembert,Zuivel,Kaas,10.0,
+Candybars minis,Snoep,Chocolade,5.5,Milk chocolate
+Cannellini bonen,Plantaardig,Peulvruchten,0.9,
+Cashewnoten,Plantaardig,Noten,3.0,
+Cayennepeper,,,, Spice — negligible CO2 per serving
+Champignons,Plantaardig,Groente,0.7,
+Chardonnay (Vol en droog),Dranken,Wijn,1.8,
+Cheddar kaas,Zuivel,Kaas,10.5,
+Chilibonen,Plantaardig,Peulvruchten,0.9,
+Chilisaus,Sauzen,Saus,2.0,
+Chinese woksaus,Sauzen,Saus,2.0,
+Chocolade bites,Snoep,Chocolade,6.5,
+Chocolademelk,Zuivel,Melk,1.5,Mostly milk
+Chocolademousse pudding,Zuivel,Yoghurt,2.5,
+Chocolademousse, pudding,Zuivel,Yoghurt,2.5,
+Chocoladenoten,Snoep,Chocolade,5.5,
+Chocoladepasta,Sauzen,Spread,4.0,Chocolate spread
+Chocoladerepen met vulling praliné,Snoep,Chocolade,6.0,
+Chocoladerepen met vulling, praliné,Snoep,Chocolade,6.0,
+Chorizo worst,Vlees,Bewerkt,9.0,Dried/cured meat
+Citroenen,Plantaardig,Fruit,0.5,
+Citroensap en limoensap,Dranken,Sap,0.7,
+Clipper groene thee,Dranken,Thee,3.5,
+Clipper kruidenthee,Dranken,Thee,3.5,
+Clipper zwarte thee,Dranken,Thee,3.5,
+Cocktailsaus en whiskeysaus,Sauzen,Saus,2.5,Mayo-based
+Cola caffeïnevrij,Dranken,Frisdrank,0.4,
+Cola cherry vanille lemon,Dranken,Frisdrank,0.4,
+Cola cherry, vanille, lemon,Dranken,Frisdrank,0.4,
+Cola regular,Dranken,Frisdrank,0.4,
+Cola zero suikervrij light,Dranken,Frisdrank,0.4,
+Cola zero, suikervrij, light,Dranken,Frisdrank,0.4,
+Complete verspakketten,Plantaardig,Groente,0.7,Mixed vegetable packs
+Condooms,,,, Non-food
+Cordon bleu (kip),Vlees,Kip,5.5,Processed chicken
+Courgette,Plantaardig,Groente,0.7,
+Couscous,Granen,Pasta,1.1,
+Crackers,Granen,Gebak,1.5,
+Craft en speciaal fris,Dranken,Frisdrank,0.4,
+Creatine,,,, Supplement — non-food
+Creme fraiche,Zuivel,Room,7.5,
+Croissants,Granen,Brood,2.0,Buttery pastry
+Curd,Sauzen,Spread,1.5,
+Currysaus,Sauzen,Saus,2.0,
+Desembrood bruin volkoren spelt,Granen,Brood,0.8,
+Desembrood bruin, volkoren, spelt,Granen,Brood,0.8,
+Desembrood wit,Granen,Brood,0.9,
+Dessertsaus,Sauzen,Saus,2.0,
+Diepvries bladerdeeg filodeeg,Granen,Brood,2.5,Pastry dough with butter
+Diepvries bladerdeeg, filodeeg,Granen,Brood,2.5,
+Diepvries brood,Granen,Brood,0.9,
+Diepvries croissants,Granen,Brood,2.0,
+Diepvries halal,Vlees,Bewerkt,8.0,Halal processed meat
+Diepvries varkensvlees,Vlees,Varkensvlees,7.5,
+Diksap,Dranken,Sap,1.0,Concentrated juice
+Dipmix,Sauzen,Saus,2.0,
+Dipsaus (vers),Sauzen,Saus,2.0,
+Diverse gedroogd fruit,Plantaardig,Fruit,1.5,Dried = concentrated
+Doperwten,Plantaardig,Groente,0.7,
+Doperwten/wortelen (diepvries),Plantaardig,Groente,0.5,
+Drink bouillon,Sauzen,Soep,0.8,
+Drinkyoghurt ontbijtdranken,Zuivel,Yoghurt,1.9,
+Drinkyoghurt, ontbijtdranken,Zuivel,Yoghurt,1.9,
+Droge rosé,Dranken,Wijn,1.8,
+Droge worst - metworst,Vlees,Bewerkt,9.0,
+Droge worst - salami fuet,Vlees,Bewerkt,9.0,
+Droge worst - salami, fuet,Vlees,Bewerkt,9.0,
+Droge worst - snacks,Vlees,Bewerkt,9.0,
+Druiven,Plantaardig,Fruit,0.8,
+Dubbel tripel quadrupel bier,Dranken,Bier,1.5,Higher ABV
+Dubbel, tripel, quadrupel bier,Dranken,Bier,1.5,
+Dubbelvla vlaflip,Zuivel,Yoghurt,1.5,Vla
+Dubbelvla, vlaflip,Zuivel,Yoghurt,1.5,
+Edamame bonen,Plantaardig,Peulvruchten,0.9,
+Edamame bonen (diepvries),Plantaardig,Peulvruchten,0.9,
+Eend fazant,Vlees,Gevogelte,6.0,
+Eend, fazant,Vlees,Gevogelte,6.0,
+Eiersalades (beleg),Zuivel,Ei,4.2,
+Eiwitpoeder,,,, Supplement — non-food
+Elektrolyten,,,, Supplement — non-food
+Energydrinks,Dranken,Frisdrank,0.5,
+Erwtensoep in zak,Sauzen,Soep,0.9,
+Exotisch fruit,Plantaardig,Fruit,1.0,More transport
+Extra lang lekker en waldkorn volkoren,Granen,Brood,0.8,
+Falafel,Plantaardig,Peulvruchten,1.5,Fried chickpea
+Farfalle,Granen,Pasta,1.2,
+Feta,Zuivel,Kaas,9.0,
+Filet americain (versafdeling),Vlees,Bewerkt,20.0,Raw beef tartare spread
+Filet americain (voorverpakt),Vlees,Bewerkt,20.0,
+Focaccia,Granen,Brood,1.5,With olive oil
+Frambozen,Plantaardig,Fruit,0.7,
+Frambozen bramen (diepvries),Plantaardig,Fruit,0.7,
+Frambozen, bramen (diepvries),Plantaardig,Fruit,0.7,
+Friet (frituur),Plantaardig,Groente,0.5,Potato fries
+Friet (oven),Plantaardig,Groente,0.5,
+Frikandel (frituur),Vlees,Bewerkt,8.0,Processed meat snack
+Frikandel (oven),Vlees,Bewerkt,8.0,
+Frisse fruitdranken,Dranken,Sap,0.8,
+Fritessaus,Sauzen,Saus,2.5,Mayo-based
+Fruit en groente smoothies,Dranken,Sap,0.8,
+Fruit en groenteshots,Dranken,Sap,0.8,
+Fruit en pittenmix,Plantaardig,Noten,2.0,Mixed nuts and dried fruit
+Fruit knijphapjes vanaf 4 maanden,Plantaardig,Fruit,0.7,
+Fruit knijphapjes vanaf 6 maanden,Plantaardig,Fruit,0.7,
+Fruitbiscuit en melkbiscuit,Snoep,Koek,2.5,
+Fruitboxen en -pakketten,Plantaardig,Fruit,0.7,
+Fruitmix (diepvries),Plantaardig,Fruit,0.7,
+Fruitmix conserven,Plantaardig,Fruit,0.7,
+Fruitpotjes vanaf 4 maanden,Plantaardig,Fruit,0.7,
+Fruitsalade,Plantaardig,Fruit,0.7,
+Fruitspread,Sauzen,Spread,1.5,
+Fruitwater,Dranken,Water,0.1,
+Fusilli casarecce,Granen,Pasta,1.2,
+Fusilli, casarecce,Granen,Pasta,1.2,
+Garnalen (diepvries),Vis,Schaaldieren,15.0,
+Garnalen (vers),Vis,Schaaldieren,15.0,
+Gebak (diepvries),Granen,Gebak,2.5,
+Gebraden kip,Vlees,Kip,5.0,
+Gegrild en gebraden gehakt (versafdeling),Vlees,Gemengd,17.0,
+Gehakt (half-om-half),Vlees,Gemengd,17.0,
+Gehakt (kip),Vlees,Kip,5.0,
+Gehaktbal (rund),Vlees,Rundvlees,26.0,
+Geitenkaas (plakken),Zuivel,Kaas,9.5,
+Geitenkaas (stuk),Zuivel,Kaas,9.5,
+Gekruide kaas (plakken),Zuivel,Kaas,10.5,
+Gekruide gerookte kaas (stuk),Zuivel,Kaas,10.5,
+Gekruide, gerookte kaas (stuk),Zuivel,Kaas,10.5,
+Gember en knoflook (conserven),,,, Condiment/spice
+Gember en pepers,Plantaardig,Groente,0.7,
+Gemberkruiden (djahé),,,, Spice
+Gepelde tomaten,Sauzen,Saus,1.5,Canned whole tomatoes
+Geraspte kaas,Zuivel,Kaas,11.0,
+Gerookte forel haring zeebaars,Vis,Wilde vis,2.5,Smoked fish average
+Gerookte forel, haring, zeebaars,Vis,Wilde vis,2.5,
+Gerookte kip,Vlees,Kip,5.5,
+Gerookte kip - reepjes,Vlees,Kip,5.5,
+Gerookte zalm,Vis,Gekweekte vis,5.0,
+Gesneden verspakketten,Plantaardig,Groente,0.7,
+Gezeefde tomaten frito passata,Sauzen,Saus,2.5,Concentrated tomato
+Gezeefde tomaten, frito, passata,Sauzen,Saus,2.5,
+Gezouten roomboter,Zuivel,Boter,14.0,
+Ginger ale ginger beer,Dranken,Frisdrank,0.4,
+Ginger ale, ginger beer,Dranken,Frisdrank,0.4,
+Glijmiddel,,,, Non-food
+Glutenvrij afbakbrood,Granen,Brood,0.9,
+Glutenvrij brood,Granen,Brood,0.9,
+Glutenvrije crackers knackebrod,Granen,Gebak,1.5,
+Glutenvrije crackers, knackebrod,Granen,Gebak,1.5,
+Glutenvrije havermout en pap,Granen,Ontbijt,0.9,
+Glutenvrije ketjap,Sauzen,Saus,2.5,
+Glutenvrije koekjes,Snoep,Koek,2.5,
+Glutenvrije muesli,Granen,Ontbijt,1.3,
+Glutenvrije pasta,Granen,Pasta,1.2,
+Glutenvrije sojasaus,Sauzen,Saus,2.5,
+Gnocchi,Granen,Pasta,1.5,Potato-based pasta
+Graanvlokken gepoft,Granen,Ontbijt,1.3,
+Graanvlokken, gepoft,Granen,Ontbijt,1.3,
+Granaatappel (diepvries),Plantaardig,Fruit,0.7,
+Griekse yoghurt,Zuivel,Yoghurt,3.5,
+Grillworst (versafdeling),Vlees,Bewerkt,7.5,
+Grillworst (voorverpakt),Vlees,Bewerkt,7.5,
+Groene olijven,Plantaardig,Groente,0.7,
+Groente pizzabodems,Granen,Brood,1.5,
+Groentemix conserven,Plantaardig,Groente,0.7,
+Groentepasta rijst,Plantaardig,Groente,0.7,Vegetable-shaped pasta/rice
+Groentepasta, rijst,Plantaardig,Groente,0.7,
+Groentesalades (beleg),Plantaardig,Groente,0.7,
+Groentesoep in blik,Sauzen,Soep,0.8,
+Groentesoep in zak,Sauzen,Soep,0.8,
+Groentewraps,Granen,Brood,0.9,
+Hachee goulash,Vlees,Rundvlees,26.0,Typically beef stew
+Hachee, goulash,Vlees,Rundvlees,26.0,
+Hagelslag,Sauzen,Spread,4.0,
+Halal vleeswaren,Vlees,Bewerkt,8.0,
+Halfvolle melk,Zuivel,Melk,1.5,
+Halfvolle yoghurt,Zuivel,Yoghurt,1.9,
+Halloumi en grillkaas,Zuivel,Kaas,10.5,
+Halvarine,Zuivel,Boter,5.0,Low-fat dairy spread
+Ham (versafdeling),Vlees,Bewerkt,8.0,
+Ham (voorverpakt),Vlees,Bewerkt,8.0,
+Hamburgerbroodjes,Granen,Brood,1.0,
+Hamburgers (rund),Vlees,Rundvlees,26.0,
+Hamlappen filetlappen,Vlees,Varkensvlees,7.5,
+Hamlappen, filetlappen,Vlees,Varkensvlees,7.5,
+Hamreepjes en blokjes,Vlees,Varkensvlees,7.5,
+Harde zoute drop,Snoep,Snoep,2.0,
+Haricots verts,Plantaardig,Groente,0.6,
+Haricots verts (conserven),Plantaardig,Groente,0.6,
+Haring (vers),Vis,Wilde vis,1.0,
+Haverdrink,Dranken,Zuiveldrank,0.6,Plant-based milk — overrides Plantaardig category
+Havermout,Granen,Ontbijt,0.9,
+Haverrepen,Granen,Ontbijt,1.3,
+Hazelnootpasta,Sauzen,Spread,4.5,Chocolate + hazelnuts
+Hele kip,Vlees,Kip,5.0,
+High Protein Mousses,Zuivel,Yoghurt,2.5,
+High Protein Pudding tussendoortjes,Zuivel,Yoghurt,2.5,
+High Protein Pudding tussendoortjes (vegan),Plantaardig,Plantaardige alternatieven,1.2,Plant-based protein pudding
+High protein drinks,Zuivel,Melk,2.0,Enriched milk
+High protein kwark,Zuivel,Yoghurt,2.5,
+High protein kwark tussendoortjes,Zuivel,Yoghurt,2.5,
+Hollandse maaltijdpakketten mixen,,,, Mixed meal kits — no single CO2 category
+Hollandse maaltijdpakketten, mixen,,,, Mixed meal kits — no single CO2 category
+Honing,Sauzen,Spread,2.5,
+Houdbare melk,Zuivel,Melk,1.5,
+Huidschimmel behandeling,,,, Non-food medicine
+Hummus met smaakje,Plantaardig,Peulvruchten,1.5,Chickpea-based
+Hummus naturel,Plantaardig,Peulvruchten,1.5,Chickpea-based
+IJsblokjes,,,, Ice cubes — water
+IJskoffie,Dranken,Koffie,2.0,Diluted coffee with milk
+IPA,Dranken,Bier,1.2,
+Ice tea drinkpakjes,Dranken,Frisdrank,0.4,
+Ice tea green,Dranken,Frisdrank,0.4,
+Ice tea lemon,Dranken,Frisdrank,0.4,
+Ice tea peach,Dranken,Frisdrank,0.4,
+Ice tea zero,Dranken,Frisdrank,0.4,
+Iets kruimige aardappelen,Plantaardig,Groente,0.3,
+Immuunsysteem ondersteuning,,,, Supplement — non-food
+Indiase currypasta,Sauzen,Saus,2.0,
+Indonesische maaltijdpakketten mixen,,,, Mixed meal kits
+Indonesische maaltijdpakketten, mixen,,,, Mixed meal kits
+Italiaanse kruiden,,,, Herb blend — negligible CO2 per serving
+Italiaanse maaltijdpakketten mixen,,,, Mixed meal kits
+Italiaanse maaltijdpakketten, mixen,,,, Mixed meal kits
+Jalapeno pepers,Plantaardig,Groente,0.7,
+Jalapeno, pepers,Plantaardig,Groente,0.7,
+Japanse sojasaus,Sauzen,Saus,2.5,
+Japanse woksaus,Sauzen,Saus,2.0,
+Jong belegen kaas (plakken),Zuivel,Kaas,10.5,
+Jong belegen kaas (stuk),Zuivel,Kaas,10.5,
+Jonge kaas (plakken),Zuivel,Kaas,10.5,
+Kaas hapjes (oven),Zuivel,Kaas,10.5,
+Kaasblokjes,Zuivel,Kaas,10.5,
+Kaassalades,Zuivel,Kaas,7.0,Mixed with mayo etc.
+Kaneel,,,, Spice — negligible CO2 per serving
+Kappertjes,,,, Condiment — negligible CO2 per serving
+Kapucijners en velderwten,Plantaardig,Peulvruchten,0.9,
+Kauwgom in pot,,,, Non-food / negligible
+Keelpastilles,,,, Medicine / supplement
+Kerrie,,,, Spice — negligible CO2 per serving
+Kersen,Plantaardig,Fruit,0.7,
+Kersen conserven,Plantaardig,Fruit,0.7,
+Ketchup,Sauzen,Saus,1.5,
+Ketjap,Sauzen,Saus,2.5,
+Kiemgroenten en tauge,Plantaardig,Groente,0.5,
+Kikkererwten,Plantaardig,Peulvruchten,0.8,
+Kindervitamines,,,, Supplement — non-food
+Kip shoarma kebab gyros,Vlees,Kip,5.5,
+Kip shoarma, kebab, gyros,Vlees,Kip,5.5,
+Kipburger,Vlees,Kip,5.5,
+Kipfilet blokjes,Vlees,Kip,5.5,
+Kipfilet en kalkoenfilet (versafdeling),Vlees,Kip,5.5,
+Kipfilet en kalkoenfilet (voorverpakt),Vlees,Kip,5.5,
+Kipfilet reepjes,Vlees,Kip,5.5,
+Kipfilet stuk,Vlees,Kip,5.5,
+Kipkluifjes,Vlees,Kip,4.5,Lower-value cuts
+Kipkruiden,,,, Spice blend — negligible CO2 per serving
+Kipnuggets (oven),Vlees,Kip,5.5,Processed chicken
+Kippenpoten drumsticks,Vlees,Kip,4.5,
+Kippenpoten, drumsticks,Vlees,Kip,4.5,
+Kippensoep in blik,Sauzen,Soep,0.8,
+Kippensoep in zak,Sauzen,Soep,0.8,
+Kipsalades (beleg),Vlees,Kip,5.0,
+Kiwi,Plantaardig,Fruit,0.8,
+Kleine salade,Plantaardig,Groente,0.5,
+Knackebrod,Granen,Gebak,1.5,
+Knakworst,Vlees,Bewerkt,7.5,
+Knijpfruit vanaf 12 maanden,Plantaardig,Fruit,0.7,
+Knoflook,Plantaardig,Groente,0.4,
+Knoflookpoeder uienpoeder,,,, Spice — negligible CO2 per serving
+Knoflookpoeder, uienpoeder,,,, Spice — negligible CO2 per serving
+Knoflooksaus,Sauzen,Saus,2.0,
+Knolselderij,Plantaardig,Groente,0.4,
+Koekjes met chocolade,Snoep,Koek,3.0,Chocolate-coated biscuits
+Koffiekoekjes,Snoep,Koek,2.5,
+Koffiemelk,Zuivel,Room,7.5,Coffee creamer
+Koffiesiroop,Dranken,Koffie,5.0,Sugary concentrated
+Kokosbrood,Granen,Brood,1.0,Dutch coconut bread roll
+Kokosdrink,Dranken,Zuiveldrank,0.9,Plant-based milk — overrides Plantaardig category
+Kokosmelk,Plantaardig,Plantaardige alternatieven,1.0,Cooking coconut milk
+Kokosolie,Sauzen,Olie,3.0,
+Kokosrasp kokossnippers,Plantaardig,Noten,2.0,Coconut flakes
+Kokosrasp, kokossnippers,Plantaardig,Noten,2.0,
+Kokoswater aloe vera dranken,Dranken,Water,0.3,
+Kokoswater, aloe vera dranken,Dranken,Water,0.3,
+Komijnzaad,,,, Spice — negligible CO2 per serving
+Komkommer,Plantaardig,Groente,0.9,
+Kookroom,Zuivel,Room,7.5,
+Kookworst (versafdeling),Vlees,Bewerkt,7.5,
+Kookworst (voorverpakt),Vlees,Bewerkt,7.5,
+Koolvis (diepvries),Vis,Bewerkt,4.5,White fish
+Koolzuurhoudend water,Dranken,Water,0.1,
+Koolzuurvrij water,Dranken,Water,0.1,
+Kopsoep,Sauzen,Soep,0.8,
+Krentenbollen en mueslibollen,Granen,Brood,1.2,
+Krieltjes geschild,Plantaardig,Groente,0.3,
+Krieltjes ongeschild,Plantaardig,Groente,0.3,
+Kroepoek,Snoep,Chips,2.0,Rice crackers snack
+Krokante muesli,Granen,Ontbijt,2.0,Granola with oil/sugar
+Kroket (frituur),Vlees,Bewerkt,8.0,
+Kroket (oven),Vlees,Bewerkt,8.0,
+Kruidenboter,Zuivel,Boter,12.0,Butter with herbs
+Kruidnagel,,,, Spice — negligible CO2 per serving
+Kruimige aardappelen,Plantaardig,Groente,0.3,
+Kwark met smaak,Zuivel,Yoghurt,2.5,
+Lactosevrije kaas,Zuivel,Kaas,10.5,
+Lactosevrije melk,Zuivel,Melk,1.5,
+Lactosevrije yoghurt en kwark,Zuivel,Yoghurt,2.0,
+Lange vingers,Snoep,Koek,2.5,Ladyfinger biscuits
+Lasagnebladen,Granen,Pasta,1.2,
+Lemon en lime,Dranken,Frisdrank,0.4,
+Leverworst en leverkaas (versafdeling),Vlees,Bewerkt,8.0,
+Leverworst en leverkaas (voorverpakt),Vlees,Bewerkt,8.0,
+Limoenen,Plantaardig,Fruit,0.5,
+Limonadesiroop,Dranken,Frisdrank,0.8,Concentrated
+Limonadesiroop (suikerbewust en suikervrij),Dranken,Frisdrank,0.6,
+Linguine fettucine,Granen,Pasta,1.2,
+Linguine, fettucine,Granen,Pasta,1.2,
+Linzen,Plantaardig,Peulvruchten,0.9,
+Linzenwafels kikkererwtwafels,Granen,Gebak,1.5,
+Linzenwafels, kikkererwtwafels,Granen,Gebak,1.5,
+Lipton zwarte thee,Dranken,Thee,3.5,
+Luierbroekjes,,,, Non-food
+Luiers maat 4,,,, Non-food
+Luiers maat 5,,,, Non-food
+Luiers maat 6,,,, Non-food
+Luiers maat 7,,,, Non-food
+Luierzakjes en matrasbeschermer,,,, Non-food
+Luxe chips,Snoep,Chips,2.5,
+Luxe chocolade,Snoep,Chocolade,7.0,Premium dark chocolate
+Luxe toetjes,Zuivel,Yoghurt,3.0,Rich dairy desserts
+Maaltijd Kruidenmixen,,,, Spice blends — negligible CO2 per serving
+Maaltijden vanaf 12 maanden,,,, Mixed baby food — no single CO2 category
+Maaltijden vanaf 4 maanden,,,, Mixed baby food — no single CO2 category
+Maaltijden vanaf 6 maanden,,,, Mixed baby food — no single CO2 category
+Maaltijden vanaf 8 maanden,,,, Mixed baby food — no single CO2 category
+Maaltijdsalade,Plantaardig,Groente,0.7,
+Macadamianoten,Plantaardig,Noten,3.0,
+Macaroni maccheroncini,Granen,Pasta,1.2,
+Macaroni, maccheroncini,Granen,Pasta,1.2,
+Magere kwark,Zuivel,Yoghurt,2.5,
+Magere yoghurt,Zuivel,Yoghurt,1.9,
+Mais conserven,Plantaardig,Groente,0.5,
+Maiskolven,Plantaardig,Groente,0.5,
+Mandarijnen,Plantaardig,Fruit,0.5,
+Mango,Plantaardig,Fruit,1.6,
+Mango ananas (diepvries),Plantaardig,Fruit,1.0,
+Mango, ananas (diepvries),Plantaardig,Fruit,1.0,
+Margarine,Plantaardig,Plantaardige alternatieven,1.5,Plant-oil based
+Marinade,Sauzen,Saus,2.0,
+Marmelade,Sauzen,Spread,1.5,
+Mascarpone,Zuivel,Kaas,7.0,Cream cheese
+Mayonaise,Sauzen,Saus,2.5,
+Melk drinkpakjes,Zuivel,Melk,1.5,
+Melkchocolade,Snoep,Chocolade,5.5,
+Melkchocolade met biscuit,Snoep,Chocolade,5.0,
+Melkchocolade met noten,Snoep,Chocolade,5.5,
+Melkchocolade met smaak,Snoep,Chocolade,5.5,
+Meloenen,Plantaardig,Fruit,0.5,
+Mexicaanse kruidenmix,Sauzen,Saus,2.0,
+Mexicaanse sauzen,Sauzen,Saus,2.0,
+Midden-Oosterse kruiden smaakmakers,,,, Spice blend
+Midden-Oosterse kruiden, smaakmakers,,,, Spice blend
+Mie,Granen,Pasta,1.2,
+Migraine pijnstillers,,,, Medicine — non-food
+Miso en ramen bouillon,Sauzen,Soep,1.0,Fermented soy
+Mixdranken,Dranken,Wijn,1.8,Mixed alcoholic drinks
+Mosterd,Sauzen,Saus,0.7,
+Mosterdsoep in zak,Sauzen,Soep,0.8,
+Mozzarella,Zuivel,Kaas,9.0,
+Multivitamines,,,, Supplement — non-food
+Multivruchtensap (vers),Dranken,Sap,1.0,
+Naanbrood pappadum,Granen,Brood,1.5,
+Naanbrood, pappadum,Granen,Brood,1.5,
+Nat hondenvoer,,,, Pet food — non-food for humans
+Naturel chips,Snoep,Chips,2.5,
+Natuurazijn,Sauzen,Saus,0.5,
+Nectarines,Plantaardig,Fruit,0.5,
+Neus baby en kind,,,, Non-food medicine
+Neusspray,,,, Non-food medicine
+Noedels,Granen,Pasta,1.2,
+Noten garnering,Plantaardig,Noten,2.5,
+Notenboter,Sauzen,Spread,3.0,Nut butter
+Notenmix,Plantaardig,Noten,2.5,
+Olijfolie basis,Sauzen,Olie,4.5,
+Olijfolie biologisch,Sauzen,Olie,4.5,
+Olijfolie extra vierge,Sauzen,Olie,4.5,
+Olijfolie met smaaktoevoegingen,Sauzen,Olie,4.5,
+Olijfolie mild,Sauzen,Olie,4.5,
+Olijven speciaal,Plantaardig,Groente,0.7,
+Ongesneden verspakketten,Plantaardig,Groente,0.7,
+Ongezouten roomboter,Zuivel,Boter,14.0,
+Ontbijtkoek (gesneden),Granen,Gebak,2.0,
+Ontbijtkoek (ongesneden),Granen,Gebak,2.0,
+Ontbijtkoekrepen,Granen,Gebak,2.0,
+Oploskoffie (melkbasis),Dranken,Koffie,5.0,Instant coffee with milk
+Oregano en majoraan,,,, Herb — negligible CO2 per serving
+Orzo riso,Granen,Pasta,1.2,
+Orzo, riso,Granen,Pasta,1.2,
+Ovengroente,Plantaardig,Groente,0.7,
+Ovenschotel kip,Vlees,Kip,5.0,
+Ovenschotel vlees,Vlees,Rundvlees,26.0,Typically beef casserole
+Overige blauwe kaas,Zuivel,Kaas,11.0,Blue cheese
+Overige merken kruidenthee,Dranken,Thee,3.5,
+Overige rode wijn (Fruitig),Dranken,Wijn,1.8,
+Overige rode wijn (Soepel),Dranken,Wijn,1.8,
+Overige rode wijn (Stevig),Dranken,Wijn,1.8,
+Overige snelle snacks,Snoep,Snacks,2.5,
+Overige witschimmelkaas,Zuivel,Kaas,10.0,
+Paddenstoelen,Plantaardig,Groente,0.7,
+Paksoi,Plantaardig,Groente,0.5,
+Pandanrijst,Granen,Rijst,3.5,
+Pangasius (vers),Vis,Gekweekte vis,4.0,
+Paprika,Plantaardig,Groente,1.2,
+Paprika chips,Snoep,Chips,2.5,
+Paprikapoeder,,,, Spice — negligible CO2 per serving
+Paracetamol,,,, Medicine — non-food
+Parmezaanse kaas grano padano pecorino,Zuivel,Kaas,11.5,Aged hard cheeses
+Parmezaanse kaas, grano padano, pecorino,Zuivel,Kaas,11.5,
+Pasen beleg,Sauzen,Spread,1.5,Easter spreads
+Pastasaus in pot,Sauzen,Saus,2.0,
+Pastasaus in zak,Sauzen,Saus,2.0,
+Pastinaak,Plantaardig,Groente,0.5,
+Pate (versafdeling),Vlees,Bewerkt,8.0,
+Penne,Granen,Pasta,1.2,
+Peren,Plantaardig,Fruit,0.5,
+Peren conserven,Plantaardig,Fruit,0.5,
+Perla koffiebonen,Dranken,Koffie,15.0,
+Perla Nespresso cups,Dranken,Koffie,15.0,
+Perla Superiore Nespresso cups,Dranken,Koffie,15.0,
+Perziken,Plantaardig,Fruit,0.5,
+Perziken- pruimen conserven,Plantaardig,Fruit,0.5,
+Perziken-, pruimen conserven,Plantaardig,Fruit,0.5,
+Pesto (vers),Sauzen,Saus,3.0,Oil + cheese + pine nuts
+Pesto in pot,Sauzen,Saus,3.0,
+Peterselie en selderij,,,, Herb — negligible CO2 per serving
+Petit Patisserie Banket,Granen,Gebak,3.0,
+Petit patisserie gebak,Granen,Gebak,3.0,
+Peultjes,Plantaardig,Groente,0.6,
+Pickwick groene thee,Dranken,Thee,3.5,
+Pickwick kruidenthee,Dranken,Thee,3.5,
+Pickwick zwarte thee,Dranken,Thee,3.5,
+Pijnboompitten,Plantaardig,Noten,3.0,
+Pijnstillers baby en kind,,,, Medicine — non-food
+Pils blik,Dranken,Bier,1.2,
+Pils fles,Dranken,Bier,1.2,
+Pils krat,Dranken,Bier,1.0,Reusable crate
+Pindakaas,Sauzen,Spread,2.5,
+Pistachenoten,Plantaardig,Noten,3.0,
+Pitabroodjes flatbread bao buns,Granen,Brood,1.0,
+Pitabroodjes, flatbread, bao buns,Granen,Brood,1.0,
+Pitten en zaden,Plantaardig,Noten,2.0,Seeds and pips
+Pizza (dikke bodem),Granen,Gebak,3.5,Cheese + toppings
+Pizza (dunne bodem),Granen,Gebak,3.0,
+Pizza (steen/houtoven),Granen,Gebak,3.5,
+Pizzabodem (vers),Granen,Brood,1.5,
+Pizzabroodjes,Granen,Brood,1.5,
+Pizzasaus,Sauzen,Saus,2.0,
+Plakken spek en bacon (versafdeling),Vlees,Varkensvlees,8.0,
+Plakken spek en bacon (voorverpakt),Vlees,Varkensvlees,8.0,
+Plantaardige boter,Plantaardig,Plantaardige alternatieven,1.5,
+Plantaardige diepvries snacks (oven),Plantaardig,Vleesvervangers,3.5,
+Plantaardige dranken,Dranken,Zuiveldrank,0.8,Plant-based milk — overrides Plantaardig category
+Plantaardige kaas voor beleg,Plantaardig,Plantaardige alternatieven,4.5,
+Plantaardige kaas voor de borrel,Plantaardig,Plantaardige alternatieven,4.5,
+Plantaardige kaas voor maaltijden,Plantaardig,Plantaardige alternatieven,4.5,
+Plantaardige kwark vla,Plantaardig,Plantaardige alternatieven,1.2,
+Plantaardige kwark, vla,Plantaardig,Plantaardige alternatieven,1.2,
+Plantaardige room,Plantaardig,Plantaardige alternatieven,1.0,
+Plantaardige spreads,Plantaardig,Plantaardige alternatieven,1.5,
+Plantaardige tussendoortjes,Plantaardig,Vleesvervangers,3.5,
+Plantaardige vleeswaren,Plantaardig,Vleesvervangers,3.5,
+Plantaardige yoghurt met smaak,Plantaardig,Plantaardige alternatieven,1.2,
+Plantaardige yoghurt naturel,Plantaardig,Plantaardige alternatieven,1.2,
+Pleisters,,,, Non-food
+Pompoen,Plantaardig,Groente,0.7,
+Popcorn,Snoep,Chips,1.5,
+Pops loops,Granen,Ontbijt,1.3,
+Pops, loops,Granen,Ontbijt,1.3,
+Prei,Plantaardig,Groente,0.4,
+Prei (diepvries),Plantaardig,Groente,0.4,
+Probiotica kefir gut health yoghurt,Zuivel,Yoghurt,1.9,
+Probiotica, kefir, gut health yoghurt,Zuivel,Yoghurt,1.9,
+Proteïnerepen,Snoep,Koek,3.0,Protein bars
+Pure chocolade repen,Snoep,Chocolade,7.0,
+Quiches,Granen,Gebak,4.0,Eggs + cream + pastry
+Radler,Dranken,Bier,0.8,Half beer half lemonade
+Ramennoedels udonnoedels,Granen,Pasta,1.2,
+Ramennoedels, udonnoedels,Granen,Pasta,1.2,
+Reepjes spek en bacon (voorverpakt),Vlees,Varkensvlees,8.0,
+Regio noord vleeswaren,Vlees,Bewerkt,8.0,
+Regio west vleeswaren,Vlees,Bewerkt,8.0,
+Regio zuid vleeswaren,Vlees,Bewerkt,8.0,
+Rigatoni,Granen,Pasta,1.2,
+Rijstwafels,Granen,Gebak,1.5,
+Rijstwijn pruimenwijn,Dranken,Wijn,1.5,
+Rijstwijn, pruimenwijn,Dranken,Wijn,1.5,
+Rijstzoutjes,Snoep,Chips,2.0,Rice crackers
+Risottorijst,Granen,Rijst,3.5,
+Rode bessen,Plantaardig,Fruit,0.7,
+Rode bieten,Plantaardig,Groente,0.4,
+Rode kool (conserven),Plantaardig,Groente,0.5,
+Roerbakgroente,Plantaardig,Groente,0.7,
+Rondeeleieren,Zuivel,Ei,4.2,
+Roodflora kaas,Zuivel,Kaas,11.0,Washed-rind cheese
+Rooibosthee,Dranken,Thee,3.5,
+Rookworst,Vlees,Bewerkt,7.5,
+Room handijs,Snoep,Ijs,3.0,
+Roomijs bekertjes,Snoep,Ijs,3.0,
+Roomkaas,Zuivel,Kaas,5.5,
+Rosti (diepvries),Plantaardig,Groente,0.5,Potato rösti
+Rozemarijn en tijm,,,, Herb — negligible CO2 per serving
+Rozijnen,Plantaardig,Fruit,1.5,Dried grapes
+Rundergehakt,Vlees,Rundvlees,26.0,
+Salami en cervelaat (versafdeling),Vlees,Bewerkt,9.0,
+Salami en cervelaat (voorverpakt),Vlees,Bewerkt,9.0,
+Satésaus,Sauzen,Saus,2.5,Peanut-based
+Sauvignon Blanc (Fris en droog),Dranken,Wijn,1.8,
+Schaal,Plantaardig,Fruit,0.7,Fruit items
+Schapenkaas (stuk),Zuivel,Kaas,9.5,
+Scharreleieren,Zuivel,Ei,4.2,
+Schelpjes conchigliette orecchiette,Granen,Pasta,1.2,
+Schelpjes, conchigliette, orecchiette,Granen,Pasta,1.2,
+Schenkstroop,Sauzen,Spread,2.5,Syrup topping
+Schepijs,Snoep,Ijs,3.0,
+Schnitzel (kip),Vlees,Kip,5.5,
+Schnitzel cordon bleu,Vlees,Varkensvlees,7.5,Typically pork
+Schnitzel, cordon bleu,Vlees,Varkensvlees,7.5,
+Schuddebuikjes,Granen,Ontbijt,1.3,Puffed grain snack
+Schuimpjes,Snoep,Snoep,2.0,
+Seitan,Plantaardig,Vleesvervangers,3.5,
+Shoarma Gyros,Vlees,Bewerkt,8.0,
+Shoarma, Gyros,Vlees,Bewerkt,8.0,
+Sinaasappels,Plantaardig,Fruit,0.5,
+Sinaasappelsap en jus d'orange (vers),Dranken,Sap,1.0,
+Sinaasappelsap citrussap grapefruitsap (jus d'orange),Dranken,Sap,1.0,
+Sinaasappelsap, citrussap, grapefruitsap (jus d'orange),Dranken,Sap,1.0,
+Sinas,Dranken,Frisdrank,0.4,
+Skyr met smaak,Zuivel,Yoghurt,3.0,
+Skyr naturel,Zuivel,Yoghurt,3.0,
+Sla,Plantaardig,Groente,0.5,
+Slagroom,Zuivel,Room,7.5,
+Slaverrijkers,Plantaardig,Groente,0.7,Salad toppings
+Slavinken boomstammetjes,Vlees,Varkensvlees,7.5,Pork roulade
+Slavinken, boomstammetjes,Vlees,Varkensvlees,7.5,
+Smaakvarianten chips,Snoep,Chips,2.5,
+Smeerkaas,Zuivel,Kaas,5.5,
+Smeerpastei smac schouderham (conserven),Vlees,Bewerkt,8.0,
+Smeerpastei, smac, schouderham (conserven),Vlees,Bewerkt,8.0,
+Snacks vanaf 12 maanden,Plantaardig,Groente,0.7,Typically vegetable puffs
+Snacks vanaf 3 jaar,Snoep,Snacks,2.5,
+Snacks vanaf 6 maanden,Plantaardig,Groente,0.7,
+Snacks vanaf 8 maanden,Plantaardig,Groente,0.7,
+Snoeienpoetsers en vochtige washandjes,,,, Non-food
+Snoetenpoetsers en vochtige washandjes,,,, Non-food
+Snoepgroente,Plantaardig,Groente,0.7,
+Snoepmix,Snoep,Snoep,2.0,
+Snoetrollen,Snoep,Snoep,2.0,
+Snoeprollen,Snoep,Snoep,2.0,
+Soepballetjes (conserven),Vlees,Bewerkt,8.0,
+Soepgroente,Plantaardig,Groente,0.7,
+Soepmixen,Sauzen,Soep,0.8,
+Soeppakketten,Plantaardig,Groente,0.7,Soup vegetable packs
+Soepstengels,Granen,Gebak,1.5,Breadsticks
+Soepvlees (rund),Vlees,Rundvlees,27.0,
+Soepvlees kip,Vlees,Kip,5.0,
+Soesjes (diepvries),Granen,Gebak,4.0,Cream puffs
+Sojadrink,Dranken,Zuiveldrank,0.9,Plant-based milk — overrides Plantaardig category
+Spaanse en Italiaanse vleeswaren (versafdeling),Vlees,Bewerkt,9.0,
+Spaanse en Italiaanse vleeswaren (voorverpakt),Vlees,Bewerkt,9.0,
+Spaghetti,Granen,Pasta,1.2,
+Spareribs,Vlees,Varkensvlees,7.5,
+Speculaas,Snoep,Koek,2.5,
+Speculoospasta,Sauzen,Spread,3.0,Sugar + spices + palm oil
+Spek en bacon plakken (versafdeling),Vlees,Varkensvlees,8.0,
+Spek en bacon plakken (voorverpakt),Vlees,Varkensvlees,8.0,
+Spekken,Snoep,Snoep,2.0,Gelatin candy
+Speklappen,Vlees,Varkensvlees,7.5,
+Speltbrood,Granen,Brood,0.9,
+Sperziebonen,Plantaardig,Groente,0.6,
+Sperziebonen (diepvries),Plantaardig,Groente,0.6,
+Spinazie (diepvries),Plantaardig,Groente,0.8,
+Spinazie (vers),Plantaardig,Groente,0.8,
+Spitskool,Plantaardig,Groente,0.5,
+Spliterwten,Plantaardig,Peulvruchten,0.9,
+Sportdrank fles,Dranken,Frisdrank,0.4,
+Sriracha,Sauzen,Saus,2.0,
+Sriracha mayonaise,Sauzen,Saus,2.5,
+Stamppot,Plantaardig,Groente,0.5,Dutch mashed potato dish
+Starbucks Nespresso cups,Dranken,Koffie,15.0,
+Steranijs,,,, Spice — negligible CO2 per serving
+Stokbrood en ciabatta,Granen,Brood,0.9,
+Stoommaaltijden,,,, Mixed steam meals — no single CO2 category
+Stroopwafels,Snoep,Koek,3.0,Contains butter + syrup
+Stuk spek en bacon (voorverpakt),Vlees,Varkensvlees,8.0,
+Stuks gebak en mini gebak (vers),Granen,Gebak,3.0,
+Suiker poedersuiker,Granen,Suiker,0.5,Refined beet sugar
+Suiker, poedersuiker,Granen,Suiker,0.5,Refined beet sugar
+Suikerbewust snoep,Snoep,Snoep,2.0,
+Suikervrije drop,Snoep,Snoep,2.0,
+Surinaams Antiliaans fris,Dranken,Frisdrank,0.4,
+Surinaams, Antiliaans fris,Dranken,Frisdrank,0.4,
+Surinaamse kroepoek,Snoep,Chips,2.0,
+Surinaamse smaakmakers,,,, Spice blend
+Sushi benodigdheden,,,, Mixed sushi ingredients — no single CO2 category
+Sushirijst poke-bowlrijst,Granen,Rijst,3.5,
+Sushirijst, poke-bowlrijst,Granen,Rijst,3.5,
+Taart (vers),Granen,Gebak,4.0,
+Taartmix,Granen,Gebak,3.0,
+Tabasco chilipepersaus,Sauzen,Saus,2.0,
+Tabasco, chilipepersaus,Sauzen,Saus,2.0,
+Taco tortilla wrap burrito,Granen,Brood,1.0,
+Taco, tortilla, wrap, burrito,Granen,Brood,1.0,
+Tafelzout keukenzout,,,, Salt — negligible CO2 per serving
+Tafelzout, keukenzout,,,, Salt — negligible CO2 per serving
+Talkpoeder,,,, Non-food
+Tapas,Vlees,Bewerkt,9.0,Typically cured meat tapas
+Tapenade bruschetta,Sauzen,Saus,2.5,Olive-based
+Tapenade, bruschetta,Sauzen,Saus,2.5,
+Tarwebloem,Granen,Brood,0.9,Wheat flour
+Tempeh,Plantaardig,Tofu,2.5,
+Tempranillo (Soepel),Dranken,Wijn,1.8,
+Thaise currysaus,Sauzen,Saus,2.0,
+Thaise woksaus,Sauzen,Saus,2.0,
+Theebiscuits,Snoep,Koek,2.5,
+Thuisbakkers,Granen,Gebak,2.5,
+Tilapia (diepvries),Vis,Gekweekte vis,4.0,
+Toast crackers,Granen,Gebak,1.5,
+Tofu,Plantaardig,Tofu,3.0,
+Tomaten,Plantaardig,Groente,1.5,
+Tomatenblokjes,Sauzen,Saus,1.5,
+Tomatendip,Sauzen,Saus,1.5,
+Tomatenpulp,Sauzen,Saus,2.5,
+Tomatenpuree,Sauzen,Saus,4.0,
+Tomatensoep in blik,Sauzen,Soep,1.2,
+Tomatensoep in zak,Sauzen,Soep,1.2,
+Tonijn (vers),Vis,Wilde vis,6.5,
+Tonijn in olijfolie,Vis,Bewerkt,6.0,
+Tonijn in water,Vis,Bewerkt,5.5,
+Tonijn in zonnebloemolie,Vis,Bewerkt,6.0,
+Tonijn met groente,Vis,Bewerkt,4.0,
+Tortilla chips,Snoep,Chips,2.0,
+Tortilla chips (naturel),Snoep,Chips,2.0,
+Traditionele Hollandse gerechten,,,, Mixed Dutch meals — no single CO2 category
+Tray (fris en water),Dranken,Water,0.1,
+Tropisch sap,Dranken,Sap,1.0,Imported tropical
+Tuinerwten velderwten (diepvries),Plantaardig,Peulvruchten,0.9,
+Tuinerwten, velderwten (diepvries),Plantaardig,Peulvruchten,0.9,
+Turkse groente conserven,Plantaardig,Groente,0.7,
+Twinings zwarte thee,Dranken,Thee,3.5,
+Ui,Plantaardig,Groente,0.3,
+Uitdeelsnoep,Snoep,Snoep,2.0,
+Uitdeelzakjes chips,Snoep,Chips,2.5,
+Vaginale infecties behandeling,,,, Non-food medicine
+Vanaf 10 maanden (opvolgmelk),Zuivel,Melk,1.5,Follow-on formula
+Vanaf 6 maanden (opvolgmelk),Zuivel,Melk,1.5,Follow-on formula
+Vanillevla,Zuivel,Yoghurt,1.5,
+Variatiebox thee,Dranken,Thee,3.5,
+Vastkokende aardappelen,Plantaardig,Groente,0.3,
+Vega balletjes,Plantaardig,Vleesvervangers,3.5,
+Vega(n) Snacks,Plantaardig,Vleesvervangers,3.5,
+Vegan mayonaise,Sauzen,Saus,1.5,Plant-oil based
+Vegetarisch gehakt,Plantaardig,Vleesvervangers,3.5,
+Vegetarische burgers,Plantaardig,Vleesvervangers,3.5,
+Vegetarische kipfilet,Plantaardig,Vleesvervangers,3.5,
+Vegetarische schnitzel,Plantaardig,Vleesvervangers,3.5,
+Vegetarische shoarma gyros kebab,Plantaardig,Vleesvervangers,3.5,
+Vegetarische shoarma, gyros, kebab,Plantaardig,Vleesvervangers,3.5,
+Vegetarische spreads,Plantaardig,Plantaardige alternatieven,1.5,
+Vegetarische steak,Plantaardig,Vleesvervangers,3.5,
+Vegetarische stukjes,Plantaardig,Vleesvervangers,3.5,
+Vegetarische worst,Plantaardig,Vleesvervangers,3.5,Listed under Vlees AH category
+Verse Hollandse maaltijden,,,, Mixed meals — no single CO2 category
+Verse Woksauzen,Sauzen,Saus,2.0,
+Verse bolletjes,Granen,Brood,0.9,
+Verse broodjes,Granen,Brood,0.9,
+Verse friet,Plantaardig,Groente,0.5,Fresh potato fries
+Verse koeken,Granen,Gebak,2.5,
+Verse kruiden,Plantaardig,Groente,0.5,Fresh herbs — small weight contribution
+Verse olijven,Plantaardig,Groente,0.7,
+Verse pasta,Granen,Pasta,1.5,Contains eggs
+Verse pastasaus,Sauzen,Saus,2.0,
+Verse soepen,Sauzen,Soep,0.8,
+Verse wereld maaltijden,,,, Mixed world cuisine meals
+Vijgen en dadels,Plantaardig,Fruit,1.5,Dried fruit
+Vissalades (beleg),Vis,Bewerkt,5.0,
+Visvervangers,Plantaardig,Vleesvervangers,3.5,
+Vitamin water,Dranken,Water,0.2,
+Vitamine D,,,, Supplement — non-food
+Vlaaivullingen,Sauzen,Spread,1.5,Pie fillings
+Vleeskruiden,,,, Spice blend — negligible CO2 per serving
+Vleessalades (beleg),Vlees,Bewerkt,8.0,
+Vlokken,Granen,Ontbijt,1.3,Cereal flakes
+Volle kwark,Zuivel,Yoghurt,2.5,
+Volle melk,Zuivel,Melk,1.5,
+Volle yoghurt,Zuivel,Yoghurt,1.9,
+Vormpjes chips,Snoep,Chips,2.5,
+Vrije uitloop eieren,Zuivel,Ei,4.5,
+Vruchten yoghurt,Zuivel,Yoghurt,1.9,
+Vruchtenhagel,Sauzen,Spread,1.5,Fruit sprinkles
+Wafels,Snoep,Koek,2.5,
+Water met smaak,Dranken,Water,0.1,
+Waterijs,Snoep,Ijs,0.5,Mostly water + sugar
+Wijnazijn,Sauzen,Saus,0.5,
+Winegums,Snoep,Snoep,2.0,
+Wit en weizen,Dranken,Bier,1.2,
+Witte chocolade repen,Snoep,Chocolade,5.0,Cocoa butter + milk
+Witte kaas,Zuivel,Kaas,9.0,White/brined cheese
+Witte kool Chinese kool en koolrabi,Plantaardig,Groente,0.5,
+Witte kool, Chinese kool en koolrabi,Plantaardig,Groente,0.5,
+Witte rijst,Granen,Rijst,3.5,
+Wokgroente,Plantaardig,Groente,0.7,
+Worst (kip),Vlees,Kip,5.5,
+Worst (rund),Vlees,Rundvlees,9.0,Beef sausage
+Worst (varken),Vlees,Varkensvlees,7.5,
+Wortel en peen,Plantaardig,Groente,0.3,
+Wortelen (conserven),Plantaardig,Groente,0.3,
+Yoghurt drinkpakjes,Zuivel,Yoghurt,1.9,
+Yoghurt mayonaise,Sauzen,Saus,2.0,
+Zachte zoete drop,Snoep,Snoep,2.0,
+Zakken,Plantaardig,Fruit,0.7,Bags of fruit
+Zalm (diepvries),Vis,Gekweekte vis,5.0,
+Zalm (vers),Vis,Gekweekte vis,5.0,
+Zeekraal,Plantaardig,Groente,0.7,Samphire
+Zelfrijzend bakmeel,Granen,Brood,0.9,
+Zilveruitjes,Sauzen,Saus,2.0,Pickled pearl onions
+Zilvervliesrijst,Granen,Rijst,3.5,
+Zoete aardappelen,Plantaardig,Groente,0.6,
+Zoete verrijkers,Sauzen,Spread,1.5,Sweet toppings
+Zongedroogde tomaten,Sauzen,Saus,5.0,Highly concentrated
+Zonnatura kruidenthee,Dranken,Thee,3.5,
+Zonnebloemolie,Sauzen,Olie,3.0,
+Zout mix,,,, Salt blend — negligible CO2 per serving
+Zoutjes-crackers,Snoep,Chips,2.0,Savoury crackers
+Zuivelspread,Zuivel,Kaas,5.5,Dairy spread
+Zure gums,Snoep,Snoep,2.0,
+Zuurkool,Plantaardig,Groente,0.5,Fermented cabbage
+Zwangerschapstest,,,, Non-food
+Zwangerschapsvitaminen,,,, Supplement — non-food
+Zwarte bonen,Plantaardig,Peulvruchten,0.9,
+Zwarte olijven,Plantaardig,Groente,0.7,
+Zwarte peper,,,, Spice — negligible CO2 per serving

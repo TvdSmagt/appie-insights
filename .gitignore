@@ -1,0 +1,22 @@
+data/*
+
+*.db
+
+__pycache__/
+*.pyc
+# Built binaries, usually built by agents
+login/login
+backend/backend
+
+config/*
+
+# python venv
+.venv*
+
+.pytest_cache/
+
+.claude
+# Local working notes
+issues.md
+
+.vscode

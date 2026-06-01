@@ -1,0 +1,9 @@
+# Test runner
+pytest>=8.0
+
+# HTTP mocking for dashboard unit tests
+responses>=0.25
+
+# Dashboard dependencies
+-r ../dashboard/requirements.txt
+

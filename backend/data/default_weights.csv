@@ -1,0 +1,46 @@
+match_type,match_key,weight_per_piece_kg,notes
+keyword,thee,0.002,Average tea bag (~2g per bag)
+keyword, tea,0.002,Average tea bag English label (space prevents matching 'steak')
+keyword,eier,0.063,Average medium egg (~63g; matches ei/eieren/scharreleieren/uitloopeieren)
+keyword,ananas,1.200,Average pineapple
+keyword,jalapeño,0.030,Average jalapeño pepper
+keyword,prei,0.250,Average leek
+keyword,bleekselderij,0.600,Average celery bunch
+keyword,knolselderij,0.700,Average celeriac
+keyword,chinese kool,0.900,Average Chinese cabbage
+keyword,flespompoen,1.200,Average butternut squash
+keyword,watermeloen,2.000,Average watermelon
+keyword,ijsbergsla,0.500,Average iceberg lettuce
+keyword,rode peper,0.060,Average chili pepper
+keyword,vleestoma,0.200,Average beef tomato (matches vleestomaat/vleestomaten)
+keyword,bloemkool,0.700,Average cauliflower
+keyword,pompelmoes,0.400,Average pomelo
+keyword,sinaasappel,0.200,Average orange
+keyword,grapefruit,0.350,Average grapefruit
+keyword,aubergine,0.300,Average aubergine
+keyword,courgette,0.300,Average courgette
+keyword,portobello,0.120,Average portobello mushroom
+keyword,spitskool,0.700,Average pointed cabbage
+keyword,komkommer,0.350,Average cucumber
+keyword,maiskol,0.300,Average corn cob (matches maiskolf/maiskolven)
+keyword,paksoi,0.400,Average pak choi
+keyword,broccoli,0.400,Average broccoli head
+keyword,avocado,0.200,Average avocado
+keyword,pompoen,1.500,Average pumpkin
+keyword,paprika,0.200,Average bell pepper
+keyword,venkel,0.350,Average fennel bulb
+keyword,bosui,0.100,Average spring onion bunch
+keyword,witlof,0.250,Average endive head
+keyword,meloen,1.500,Average melon
+keyword,limoen,0.100,Average lime
+keyword,mango,0.400,Average mango
+keyword,bana,0.150,Average banana (matches banaan/bananen)
+keyword,peer,0.180,Average pear
+keyword,citroen,0.100,Average lemon (~100g)
+keyword,knoflook,0.060,Average garlic head (~60g)
+keyword,uien,0.100,Average onion (~100g; matches gele uien/rode uien/etc.)
+keyword,winterpeen,0.150,Average large carrot (~150g)
+keyword,witte kool,1.200,Average white cabbage (~1.2kg; placed before kool to take priority)
+keyword,haring,0.080,Average herring (~80g)
+keyword,conference,0.170,Conference pear (~170g)
+keyword,beschuit,0.010,Average beschuit (~10g per piece)

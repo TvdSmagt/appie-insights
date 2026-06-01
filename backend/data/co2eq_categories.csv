@@ -1,0 +1,178 @@
+category,subcategory,name,co2eq_per_kg,source,notes
+Vlees,Rundvlees,Runder,27.0,OWID,Generic beef — prefix-matches runder* compounds
+Vlees,Rundvlees,Rundvlees,27.0,Poore & Nemecek 2018,Average beef
+Vlees,Rundvlees,Biefstuk,30.0,Poore & Nemecek 2018,Premium cuts higher impact
+Vlees,Rundvlees,Gehakt rund,26.0,Poore & Nemecek 2018,
+Vlees,Varkensvlees,Varken,7.5,OWID,Generic pork — prefix-matches varken* compounds
+Vlees,Varkensvlees,Varkensvlees,7.5,Poore & Nemecek 2018,Average pork
+Vlees,Varkensvlees,Spareribs,7.5,OWID,Pork ribs
+Vlees,Varkensvlees,Karbonade,7.5,OWID,Pork chop
+Vlees,Varkensvlees,Speklappen,7.5,Poore & Nemecek 2018,
+Vlees,Varkensvlees,Gehakt varken,7.0,Poore & Nemecek 2018,
+Vlees,Varkensvlees,Ham,8.0,OWID,Processed pork
+Vlees,Varkensvlees,Bacon,8.0,OWID,Processed pork
+Vlees,Kip,Kip,5.0,OWID,Generic chicken — prefix-matches kip* compounds
+Vlees,Kip,Kipfilet,5.5,Poore & Nemecek 2018,
+Vlees,Kip,"Kip, biologisch",7.0,Poore & Nemecek 2018,Higher due to longer lifespan
+Vlees,Kip,Kipgehakt,5.0,Poore & Nemecek 2018,
+Vlees,Kip,Kippenpoot,4.5,Poore & Nemecek 2018,Lower-value cuts
+Vlees,Kip,Kipdrumsticks,4.5,Poore & Nemecek 2018,Lower-value cuts
+Vlees,Gevogelte,Kalkoen,6.0,OWID,
+Vlees,Gevogelte,Kalkoenfilet,6.5,OWID,
+Vlees,Lam,Lam,24.0,OWID,Generic lamb — prefix-matches lam* compounds
+Vlees,Lam,Lamsvlees,24.0,Poore & Nemecek 2018,
+Vlees,Gemengd,Gehakt half-om-half,17.0,Poore & Nemecek 2018,50/50 beef/pork blend
+Vlees,Bewerkt,Worst,7.5,OWID,Processed meat
+Vlees,Bewerkt,Rookworst,7.5,OWID,Processed meat
+Vlees,Bewerkt,Salami,9.0,OWID,Dried/cured meat
+Vis,Wilde vis,Haring,1.0,Poore & Nemecek 2018,Low-trophic pelagic fish
+Vis,Wilde vis,Makreel,2.0,Poore & Nemecek 2018,
+Vis,Wilde vis,Kabeljauw,4.5,Poore & Nemecek 2018,Demersal trawl
+Vis,Wilde vis,Tonijn,6.5,Poore & Nemecek 2018,Long-distance fisheries
+Vis,Gekweekte vis,Pangasius,4.0,Poore & Nemecek 2018,Aquaculture SE Asia
+Vis,Gekweekte vis,Zalm,5.0,Poore & Nemecek 2018,Norwegian aquaculture
+Vis,Schaaldieren,Mosselen,0.4,Poore & Nemecek 2018,Filter feeders very low impact
+Vis,Schaaldieren,Garnalen,15.0,Poore & Nemecek 2018,High energy trawling + feed
+Vis,Bewerkt,Kibbeling,5.0,OWID,Battered fish estimate
+Zuivel,Melk,Volle melk,1.5,Poore & Nemecek 2018,
+Zuivel,Melk,Halfvolle melk,1.5,Poore & Nemecek 2018,
+Zuivel,Melk,Magere melk,1.3,Poore & Nemecek 2018,
+Zuivel,Melk,Karnemelk,1.3,Poore & Nemecek 2018,
+Zuivel,Kaas,"Kaas, jong",10.5,Poore & Nemecek 2018,Less aging
+Zuivel,Kaas,"Kaas, oud",11.5,Poore & Nemecek 2018,More milk per kg due to aging
+Zuivel,Kaas,"Kaas, belegen",11.0,Poore & Nemecek 2018,
+Zuivel,Kaas,Mozzarella,9.0,Poore & Nemecek 2018,Fresh cheese lower impact
+Zuivel,Kaas,Roomkaas,5.5,OWID,Soft cheese
+Zuivel,Kaas,Brie,10.0,OWID,Soft-ripened cheese
+Zuivel,Kaas,Camembert,10.0,OWID,Soft-ripened cheese
+Zuivel,Kaas,Geitenkaas,9.5,OWID,Goat milk slightly more efficient than cow milk
+Zuivel,Kaas,Feta,9.0,OWID,Brined cheese
+Zuivel,Yoghurt,Yoghurt,1.9,Poore & Nemecek 2018,
+Zuivel,Yoghurt,Kwark,2.5,Poore & Nemecek 2018,
+Zuivel,Yoghurt,Griekse yoghurt,3.5,Poore & Nemecek 2018,Strained = more milk per kg
+Zuivel,Yoghurt,Skyr,3.0,Poore & Nemecek 2018,Strained dairy
+Zuivel,Yoghurt,Vla,1.5,OWID,Dutch custard
+Zuivel,Boter,Boter,14.0,Poore & Nemecek 2018,High milk-to-product ratio
+Zuivel,Boter,Roomboter,14.0,Poore & Nemecek 2018,
+Zuivel,Room,Slagroom,7.5,Poore & Nemecek 2018,
+Zuivel,Ei,Eieren,4.2,Poore & Nemecek 2018,
+Zuivel,Ei,"Eieren, vrije uitloop",4.5,Poore & Nemecek 2018,Slightly higher due to space
+Zuivel,Ei,"Eieren, biologisch",5.0,Poore & Nemecek 2018,Organic feed + longer life
+Plantaardig,Groente,Tomaat,1.5,Poore & Nemecek 2018,Dutch greenhouse grown
+Plantaardig,Groente,Komkommer,0.9,Poore & Nemecek 2018,Dutch greenhouse
+Plantaardig,Groente,Sla,0.5,Poore & Nemecek 2018,
+Plantaardig,Groente,Paprika,1.2,Poore & Nemecek 2018,Dutch greenhouse
+Plantaardig,Groente,Wortel,0.3,Poore & Nemecek 2018,Field crop
+Plantaardig,Groente,Ui,0.3,Poore & Nemecek 2018,Field crop
+Plantaardig,Groente,Broccoli,0.6,Poore & Nemecek 2018,
+Plantaardig,Groente,Bloemkool,0.5,Poore & Nemecek 2018,
+Plantaardig,Groente,Spinazie,0.8,Poore & Nemecek 2018,
+Plantaardig,Groente,Courgette,0.7,Poore & Nemecek 2018,
+Plantaardig,Groente,Champignons,0.7,Poore & Nemecek 2018,
+Plantaardig,Groente,Aardappel,0.3,Poore & Nemecek 2018,Field crop
+Plantaardig,Groente,Knoflook,0.4,OWID,
+Plantaardig,Groente,Prei,0.4,OWID,
+Plantaardig,Groente,Sperziebonen,0.6,Poore & Nemecek 2018,
+Plantaardig,Groente,Zoete aardappel,0.6,Poore & Nemecek 2018,
+Plantaardig,Groente,Aubergine,0.8,Poore & Nemecek 2018,
+Plantaardig,Groente,Asperge,1.3,OWID,Labour-intensive crop
+Plantaardig,Groente,Witlof,0.5,OWID,
+Plantaardig,Groente,Andijvie,0.4,OWID,
+Plantaardig,Groente,Bieten,0.4,OWID,Field crop
+Plantaardig,Groente,Mais,0.5,OWID,
+Plantaardig,Groente,Radijs,0.3,OWID,
+Plantaardig,Groente,Selderij,0.4,OWID,
+Plantaardig,Fruit,Appel,0.4,Poore & Nemecek 2018,European orchards
+Plantaardig,Fruit,Banaan,0.9,Poore & Nemecek 2018,Imported tropical
+Plantaardig,Fruit,Sinaasappel,0.5,Poore & Nemecek 2018,
+Plantaardig,Fruit,Druiven,0.8,Poore & Nemecek 2018,
+Plantaardig,Fruit,Aardbei,1.5,Poore & Nemecek 2018,Greenhouse or imported
+Plantaardig,Fruit,Mango,1.6,Poore & Nemecek 2018,Air freight component
+Plantaardig,Fruit,Avocado,2.5,Poore & Nemecek 2018,Water-intensive + transport
+Plantaardig,Fruit,Peer,0.5,Poore & Nemecek 2018,
+Plantaardig,Fruit,Citroen,0.5,Poore & Nemecek 2018,
+Plantaardig,Fruit,Mandarijn,0.5,Poore & Nemecek 2018,
+Plantaardig,Fruit,Kiwi,0.8,Poore & Nemecek 2018,
+Plantaardig,Fruit,Meloen,0.5,Poore & Nemecek 2018,
+Plantaardig,Fruit,Ananas,0.9,Poore & Nemecek 2018,Boat freight
+Plantaardig,Peulvruchten,Linzen,0.9,Poore & Nemecek 2018,N-fixing crops
+Plantaardig,Peulvruchten,Kikkererwten,0.8,Poore & Nemecek 2018,
+Plantaardig,Peulvruchten,Bonen,0.9,Poore & Nemecek 2018,
+Plantaardig,Noten,Pinda's,2.5,Poore & Nemecek 2018,
+Plantaardig,Noten,Walnoten,2.0,Poore & Nemecek 2018,
+Plantaardig,Noten,Cashewnoten,3.0,OWID,Water-intensive crop + processing
+Plantaardig,Noten,Hazelnoten,2.5,OWID,
+Plantaardig,Noten,Amandelen,3.0,OWID,Water-intensive
+Plantaardig,Noten,Gemengde noten,2.5,OWID,Weighted average of common nut mix
+Plantaardig,Tofu,Tofu,3.0,Poore & Nemecek 2018,
+Plantaardig,Tofu,Tempeh,2.5,OWID,Less processed than tofu
+Plantaardig,Vleesvervangers,Vleesvervangers,3.5,OWID,Processed plant protein
+Plantaardig,Vleesvervangers,Vegetarische burger,3.5,OWID,
+Plantaardig,Vleesvervangers,Vegetarische schnitzel,3.5,OWID,
+Plantaardig,Plantaardige alternatieven,Plantaardige kaas,4.5,OWID,
+Plantaardig,Plantaardige alternatieven,Plantaardige margarine,1.5,OWID,
+Plantaardig,Plantaardige alternatieven,Plantaardige boter,1.5,OWID,
+Plantaardig,Plantaardige alternatieven,Plantaardige room,1.0,OWID,
+Plantaardig,Plantaardige alternatieven,Plantaardige yoghurt,1.2,OWID,
+Plantaardig,Plantaardige alternatieven,Kokosmelk,1.0,OWID,
+Granen,Brood,"Brood, wit",0.9,Poore & Nemecek 2018,
+Granen,Brood,"Brood, volkoren",0.8,Poore & Nemecek 2018,
+Granen,Brood,Brood,0.9,Poore & Nemecek 2018,Generic bread
+Granen,Pasta,Pasta,1.2,Poore & Nemecek 2018,
+Granen,Pasta,Noodles,1.2,OWID,
+Granen,Pasta,Couscous,1.1,OWID,
+Granen,Rijst,Rijst,3.5,Poore & Nemecek 2018,Methane from paddy fields
+Granen,Overig,Quinoa,2.5,OWID,
+Granen,Ontbijt,Muesli,1.3,OWID,
+Granen,Ontbijt,Havermout,0.9,Poore & Nemecek 2018,
+Granen,Ontbijt,Cornflakes,1.3,OWID,
+Granen,Gebak,Ontbijtkoek,2.0,OWID,
+Granen,Gebak,Beschuit,1.2,OWID,
+Granen,Gebak,Crackers,1.5,OWID,
+Granen,Gebak,Cake,3.0,OWID,Contains butter/eggs
+Dranken,Koffie,Koffie,15.0,Poore & Nemecek 2018,Per kg roasted beans
+Dranken,Thee,Thee,3.5,OWID,
+Dranken,Sap,Sinaasappelsap,1.0,OWID,
+Dranken,Sap,Appelsap,0.7,OWID,
+Dranken,Zuiveldrank,Havermelk,0.6,Poore & Nemecek 2018,
+Dranken,Zuiveldrank,Sojamelk,0.9,Poore & Nemecek 2018,
+Dranken,Zuiveldrank,Amandelmelk,0.7,Poore & Nemecek 2018,
+Dranken,Zuiveldrank,Rijstmelk,1.2,OWID,
+Dranken,Zuiveldrank,Kokosdrink,0.9,OWID,Diluted coconut milk
+Dranken,Zuiveldrank,Plantaardige drank,0.8,OWID,Generic plant-based milk average
+Dranken,Water,Mineraalwater,0.1,OWID,Mostly packaging footprint
+Dranken,Frisdrank,Frisdrank,0.4,OWID,Mostly water + sugar
+Dranken,Bier,Bier,1.2,OWID,
+Dranken,Wijn,Wijn,1.8,OWID,
+Snoep,Chocolade,Chocolade,6.5,Poore & Nemecek 2018,Cocoa supply chain
+Snoep,Chocolade,Melkchocolade,5.5,OWID,Less cocoa than dark chocolate
+Snoep,Chocolade,Pure chocolade,7.0,OWID,Higher cocoa content
+Snoep,Koek,Koekjes,2.5,OWID,
+Snoep,Snoep,Drop,2.0,OWID,Mostly sugar and gelatin
+Snoep,Snoep,Winegums,2.0,OWID,
+Snoep,Chips,Chips,2.5,OWID,
+Snoep,Chips,Popcorn,1.5,OWID,Less processing than potato chips
+Snoep,Ijs,IJs,3.0,OWID,Dairy-based
+Sauzen,Soep,Soep,0.8,OWID,Generic vegetable-based soup estimate
+Sauzen,Soep,Tomatensoep,1.2,OWID,Concentrated tomatoes drive up impact
+Sauzen,Saus,Ketchup,1.5,OWID,
+Sauzen,Saus,Mosterd,0.7,OWID,
+Sauzen,Saus,Tomatenpuree,4.0,OWID,Concentrated tomatoes
+Sauzen,Saus,Sojasaus,2.5,OWID,
+Sauzen,Saus,Mayonaise,2.5,OWID,
+Sauzen,Olie,Olijfolie,4.5,Poore & Nemecek 2018,
+Sauzen,Olie,Zonnebloemolie,3.0,Poore & Nemecek 2018,
+Sauzen,Spread,Pindakaas,2.5,OWID,
+Sauzen,Spread,Hagelslag,4.0,OWID,Chocolate-based
+Sauzen,Spread,Fruitspread,1.5,OWID,
+Sauzen,Spread,Jam,1.5,OWID,
+Sauzen,Spread,Honing,2.5,OWID,
+Zuivel,Kaas,Kaas,10.5,Poore & Nemecek 2018,Generic cheese average
+Vlees,Bewerkt,Vleeswaren,8.0,OWID,Generic processed meat
+Plantaardig,Groente,Groente,0.7,Poore & Nemecek 2018,Generic vegetable average
+Plantaardig,Fruit,Fruit,0.7,Poore & Nemecek 2018,Generic fruit average
+Granen,Gebak,Gebak,2.5,OWID,Generic bakery
+Snoep,Snacks,Snacks,2.5,OWID,Generic snack foods
+Dranken,Overig,Drank,0.8,OWID,Generic beverage
+Sauzen,Saus,Saus,2.0,OWID,Generic sauce
+Plantaardig,Vleesvervangers,Plantaardig,3.5,OWID,Generic plant-based

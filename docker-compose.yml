@@ -1,0 +1,40 @@
+services:
+  dashboard:
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+    ports:
+      - "127.0.0.1:${DASHBOARD_PORT:-8501}:8501"
+    volumes:
+      - appie-config:/app/config
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - SETTINGS_PATH=/app/config/settings.json
+      - BACKEND_URL=http://host.docker.internal:${BACKEND_PORT:-8001}
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        # Stamp the release version into the binary. Build with
+        # `VERSION=$(git describe --tags) docker compose build` to set it;
+        # defaults to "development" otherwise.
+        VERSION: ${VERSION:-development}
+    # Host networking is required so the OAuth login proxy (started on a random
+    # port) is reachable from the host's browser for the callback redirect.
+    network_mode: host
+    volumes:
+      - ./data:/app/data
+      - appie-config:/app/config
+      - ./backend/data:/app/enrichment_data
+    environment:
+      - DB_PATH=/app/data/groceries.db
+      - CONFIG_PATH=/app/config/appie.json
+      - ENRICHMENT_DATA_DIR=/app/enrichment_data
+      - BACKEND_PORT=${BACKEND_PORT:-8001}
+    restart: unless-stopped
+
+volumes:
+  appie-config:
