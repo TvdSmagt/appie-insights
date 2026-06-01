@@ -20,3 +20,6 @@ config/*
 issues.md
 
 .vscode
+
+# We do not want to track the screenshots used to generate the carousel
+docs/carousel/screenshots/*png

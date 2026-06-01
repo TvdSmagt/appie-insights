@@ -10,6 +10,8 @@ Each product is enriched once in the backend: it gets a CO₂eq estimate, a reso
 
 ### Dashboard features
 
+![Dashboard Carousel](docs/carousel/carousel.svg)
+
 - **Home**: purchase counts, spending summary, Nutri-Score distribution, and top products at a glance
 - **Period filters**: All time / Last month / Last 3 months pills scope all displayed stats to the selected window, persisted across pages
 - **Finances**: spending over time, category breakdown, and top discounts
