@@ -1,4 +1,5 @@
 data/*
+!data/.gitkeep
 
 *.db
 
@@ -20,6 +21,8 @@ config/*
 issues.md
 
 .vscode
+
+*.code-workspace
 
 # We do not want to track the screenshots used to generate the carousel
 docs/carousel/screenshots/*png
