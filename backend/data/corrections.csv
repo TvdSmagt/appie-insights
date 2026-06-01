@@ -13,8 +13,6 @@ web_id,action,co2eq_per_kg,weight_kg,co2eq_category,co2eq_name,notes
 426103,set_category,2,,Plantaardig,Walnoten,
 459917,ignore,,,,,
 460465,set_category,2,,Plantaardig,Walnoten,
-471066,set_category,15,,Dranken,Koffie,
-481102,set_category,15,0.104,Dranken,Koffie,
 487227,set_category,2,,Plantaardig,Walnoten,
 543564,set_category,1.2,,Granen,Pasta,
 547010,set_category,2,,Plantaardig,Walnoten,
