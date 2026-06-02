@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-06-02
+
+### Added
+
+- **Standalone single-file executables** — the app can be packaged as one
+  self-contained executable per OS (Windows, macOS, Linux) bundling the Go
+  backend and the Streamlit dashboard, runnable with no install or
+  dependencies. On first launch it unpacks to a per-user directory, starts both
+  services on free local ports, and opens the dashboard. See `packaging/`.
+- **Expanded category coverage** — added 95 previously unmapped AH
+  subcategories to `ah_subcategory_map.csv`, so more products are classified
+  directly instead of falling through to weaker matching.
+- **Self-contained backend** — the enrichment CSVs are embedded into the
+  backend binary; on-disk copies under `ENRICHMENT_DATA_DIR` still take
+  precedence, so any CSV can be overridden without rebuilding.
+- **Build tooling** — `packaging/scripts/` builds the executable on each OS
+  (with a Docker wrapper for Linux), and a GitHub Actions workflow builds all
+  three on native runners and attaches them to the GitHub Release on a `v*` tag.
+
+### Changed
+
+- **Corrections fallback** — with no `corrections.csv` on disk, the backend now
+  serves the curated corrections embedded in the binary instead of an empty
+  list. A `corrections.csv` on disk (including an empty one) still overrides the
+  embedded baseline, so existing setups are unaffected.
+
+### Notes
+
+- The executables are large (~161 MB), as they embed a full Python runtime, and
+  are distributed via GitHub Release assets rather than committed to the repo.
+  Being unsigned, they trigger a first-launch warning on macOS and Windows.
+- The Docker (`./run.sh`) and local (`./run-local.sh`) workflows are unchanged.
+
 ## [1.0.0] - 2026-05-30
 
 ### Added
