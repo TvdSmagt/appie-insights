@@ -1,0 +1,34 @@
+# Normalise line endings so files behave the same regardless of each
+# contributor's Git config (core.autocrlf). Without this, a Windows clone
+# rewrites LF -> CRLF on checkout, which breaks shebangs in shell scripts and
+# can corrupt the bash heredocs in the packaging build scripts (the "entry
+# point can't be found" symptom when building/running on Windows).
+
+# Default: let Git decide text vs binary, but always store and check out text
+# files with LF.
+* text=auto eol=lf
+
+# Files that MUST stay LF — interpreters and shells choke on a trailing CR.
+*.sh        text eol=lf
+*.py        text eol=lf
+*.go        text eol=lf
+*.toml      text eol=lf
+*.csv       text eol=lf
+*.json      text eol=lf
+*.md        text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+Makefile    text eol=lf
+Dockerfile* text eol=lf
+
+# Windows-native scripts genuinely want CRLF.
+*.ps1       text eol=crlf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+
+# Binary artifacts — never touch line endings.
+*.zip       binary
+*.db        binary
+*.png       binary
+*.svg       text eol=lf
+*.exe       binary

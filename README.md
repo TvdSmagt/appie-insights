@@ -71,6 +71,16 @@ Runs the Go backend and the Streamlit dashboard as native processes — no conta
 
 The two scripts use the same defaults, so they interoperate: data is stored in `data/groceries.db` and your AH token in `~/.config/appie/appie.json`. (Note that the Docker setup keeps the token in a named volume instead — see [Data](#data) — so you may need to log in again the first time you switch between the two.)
 
+### As a standalone executable (for non-technical users)
+
+If you want to hand the app to someone who doesn't use Docker or clone repos, you can build a **single double-clickable executable** per OS (Windows `.exe`, macOS, Linux) that bundles both the backend and the dashboard — no install, no dependencies. See [`packaging/`](packaging/README.md). The quickest path on Linux:
+
+```bash
+./packaging/scripts/build-linux-docker.sh   # produces dist/appie-insights
+```
+
+Windows and macOS executables must be built on those operating systems (PyInstaller can't cross-compile); a GitHub Actions workflow builds all three on native runners. See the packaging README for details.
+
 ## Data
 
 | Path                     | Description                                                                        |
