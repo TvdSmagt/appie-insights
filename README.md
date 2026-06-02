@@ -49,6 +49,8 @@ Your AH credentials never leave your machine. The login flow performs the same O
 
 ## Getting started
 
+### With Docker (recommended)
+
 **Prerequisites:** Docker and Docker Compose.
 
 ```bash
@@ -56,6 +58,18 @@ Your AH credentials never leave your machine. The login flow performs the same O
 ```
 
 Builds and starts all services, then opens the dashboard at `http://localhost:8501`. On first run, the dashboard will prompt you to log in; clicking the button opens an Albert Heijn OAuth flow in your browser. Once authenticated, the backend syncs your receipts and classifies products automatically.
+
+### Without Docker (local)
+
+**Prerequisites:** Go 1.23+ and Python 3.12+.
+
+```bash
+./run-local.sh
+```
+
+Runs the Go backend and the Streamlit dashboard as native processes — no containers. On first run it creates a Python virtualenv in `.venv-dashboard/` and installs the dashboard's dependencies. Both processes are stopped together on `Ctrl-C`.
+
+The two scripts use the same defaults, so they interoperate: data is stored in `data/groceries.db` and your AH token in `~/.config/appie/appie.json`. (Note that the Docker setup keeps the token in a named volume instead — see [Data](#data) — so you may need to log in again the first time you switch between the two.)
 
 ## Data
 
