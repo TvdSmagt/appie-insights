@@ -1,0 +1,78 @@
+name: Package executables
+
+# Builds the self-contained single-file executables on native runners (one per
+# OS, because PyInstaller can't cross-compile) and uploads them as artifacts.
+# Pushing a version tag (v*) also attaches them to the GitHub Release.
+
+on:
+  workflow_dispatch: {}
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write # needed to attach assets to a release on tag pushes
+
+jobs:
+  build:
+    name: Build (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            asset: appie-insights-linux-amd64
+            bin: dist/appie-insights
+          - os: macos-latest # Apple Silicon
+            asset: appie-insights-macos-arm64
+            bin: dist/appie-insights
+          - os: windows-latest
+            asset: appie-insights-windows-amd64.exe
+            bin: dist/appie-insights.exe
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so `git describe` can stamp the version
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install packaging deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r dashboard/requirements.txt pyinstaller
+
+      # Unix build (Linux + macOS) via the shared bash script.
+      - name: Build (Unix)
+        if: runner.os != 'Windows'
+        run: bash packaging/scripts/build.sh
+
+      # Windows build via the PowerShell script.
+      - name: Build (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: .\packaging\scripts\build-windows.ps1
+
+      - name: Rename artifact
+        shell: bash
+        run: |
+          mkdir -p out
+          cp "${{ matrix.bin }}" "out/${{ matrix.asset }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.asset }}
+          path: out/${{ matrix.asset }}
+          if-no-files-found: error
+
+      - name: Attach to release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: out/${{ matrix.asset }}

@@ -4,6 +4,7 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io"
+	"io/fs"
 	"os"
 	"path/filepath"
 	"sort"
@@ -11,8 +12,36 @@ import (
 	"strings"
 )
 
+// EmbeddedData is an optional fallback source for the enrichment CSVs, used
+// when a file is not present on disk under the configured ENRICHMENT_DATA_DIR.
+// It lets a self-contained binary ship the canonical data baked in while still
+// allowing users to override individual files on disk. The files are expected
+// at the FS root by their base name (e.g. "co2eq_categories.csv"). It is set
+// once at startup (see backend embed) and read-only thereafter.
+var EmbeddedData fs.FS
+
 func dataPath(dir, name string) string {
 	return filepath.Join(dir, name)
+}
+
+// openData opens an enrichment data file, preferring an on-disk copy under dir
+// and falling back to the embedded copy (if any). It returns os.ErrNotExist
+// when the file exists in neither source, so callers can treat optional files
+// as empty.
+func openData(dir, name string) (io.ReadCloser, error) {
+	f, err := os.Open(dataPath(dir, name))
+	if err == nil {
+		return f, nil
+	}
+	if !os.IsNotExist(err) {
+		return nil, err
+	}
+	if EmbeddedData != nil {
+		if ef, eerr := EmbeddedData.Open(name); eerr == nil {
+			return ef, nil
+		}
+	}
+	return nil, err // the original os.ErrNotExist
 }
 
 func csvIndex(header []string) map[string]int {
@@ -31,8 +60,7 @@ func csvGet(row []string, idx map[string]int, key string) string {
 }
 
 func LoadCO2EqCategories(dir string) ([]CO2Entry, error) {
-	path := dataPath(dir, "co2eq_categories.csv")
-	f, err := os.Open(path)
+	f, err := openData(dir, "co2eq_categories.csv")
 	if err != nil {
 		return nil, fmt.Errorf("open co2eq_categories.csv: %w", err)
 	}
@@ -68,8 +96,7 @@ func LoadCO2EqCategories(dir string) ([]CO2Entry, error) {
 }
 
 func loadAHSubcategoryMap(dir string) ([]ahSubcategoryEntry, error) {
-	path := dataPath(dir, "ah_subcategory_map.csv")
-	f, err := os.Open(path)
+	f, err := openData(dir, "ah_subcategory_map.csv")
 	if os.IsNotExist(err) {
 		return nil, nil
 	}
@@ -118,8 +145,7 @@ func loadAHSubcategoryMap(dir string) ([]ahSubcategoryEntry, error) {
 }
 
 func loadDefaultWeights(dir string) ([]defaultWeight, error) {
-	path := dataPath(dir, "default_weights.csv")
-	f, err := os.Open(path)
+	f, err := openData(dir, "default_weights.csv")
 	if os.IsNotExist(err) {
 		return nil, nil
 	}
@@ -155,8 +181,7 @@ func loadDefaultWeights(dir string) ([]defaultWeight, error) {
 }
 
 func LoadCorrections(dir string) ([]Correction, error) {
-	path := dataPath(dir, "corrections.csv")
-	f, err := os.Open(path)
+	f, err := openData(dir, "corrections.csv")
 	if os.IsNotExist(err) {
 		return nil, nil
 	}

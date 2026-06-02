@@ -1,0 +1,42 @@
+# Builds the self-contained Linux executable in a clean, reproducible image.
+#
+# We deliberately base on a glibc image (debian) rather than Alpine: PyInstaller
+# bundles the host's libc, and binaries frozen against musl (Alpine) often fail
+# to run on the glibc systems most users have. debian-slim maximises
+# compatibility across typical Linux desktops.
+#
+# Usage is via packaging/scripts/build-linux-docker.sh, which builds this image
+# and copies the resulting executable out to ./dist.
+FROM golang:1.23-bookworm
+
+# Python 3.12 isn't in bookworm's default repos; the distro python3 (3.11) is
+# fine for freezing the dashboard. Install build prerequisites.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        python3 python3-venv python3-pip python3-dev libpython3-dev \
+        binutils git zip dos2unix \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /src
+
+# Pre-create the packaging venv with the dashboard deps + PyInstaller so the
+# build step doesn't reinstall every run when the image is cached.
+COPY dashboard/requirements.txt /tmp/dashboard-requirements.txt
+RUN python3 -m venv /opt/pkgvenv \
+    && /opt/pkgvenv/bin/pip install --no-cache-dir --upgrade pip \
+    && /opt/pkgvenv/bin/pip install --no-cache-dir \
+        -r /tmp/dashboard-requirements.txt pyinstaller
+
+ENV PATH="/opt/pkgvenv/bin:${PATH}"
+
+# Source is bind-mounted at run time (see build-linux-docker.sh) so we don't
+# bake a stale copy into the image.
+#
+# A repo cloned on Windows (or with core.autocrlf=true) can have CRLF line
+# endings in the build scripts, which makes the container's bash fail to find
+# the interpreter ("bash\r: not found" / entry-point errors). .gitattributes
+# prevents this for fresh clones; as a safety net we also normalise the build
+# scripts to LF in the mounted tree before running. dos2unix is idempotent
+# (a no-op on already-LF files) and only touches these scripts, so it's safe.
+# We must run the script from its real path (not via a pipe) because build.sh
+# locates the repo root from ${BASH_SOURCE[0]}.
+CMD ["bash", "-c", "dos2unix -q packaging/scripts/build.sh packaging/dashboard/run_streamlit.py 2>/dev/null; exec bash packaging/scripts/build.sh"]

@@ -122,6 +122,8 @@ See [api.md](api.md) for the full endpoint reference. High-level groupings:
 | `corrections.csv`        | Manual overrides keyed by `web_id`: ignore or set_category |
 | `default_weights.csv`    | Per-piece weight estimates for count-based products        |
 
+These live in `backend/data/` and are read from `ENRICHMENT_DATA_DIR` at run time. They are also **embedded into the backend binary** (`backend/embed.go`): when a file is absent under `ENRICHMENT_DATA_DIR`, the loader falls back to the embedded copy (see `enricher.openData`). On-disk files always take precedence, so users can still override individual CSVs without rebuilding. The embedded copies are what make the standalone single-file executable self-contained (see [`packaging/`](../packaging/README.md)) — no data files travel alongside it.
+
 ---
 
 ## Database Schema

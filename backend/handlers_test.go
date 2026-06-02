@@ -135,12 +135,17 @@ func TestHandlerGetCategories(t *testing.T) {
 }
 
 // ---------------------------------------------------------------------------
-// GET /corrections (no file → empty array)
+// GET /corrections fallback behaviour
+//
+// With no corrections.csv on disk, the backend falls back to the curated
+// corrections baked into the binary (see embed.go / enricher.EmbeddedData), so
+// a self-contained build ships sensible defaults. An empty file on disk still
+// overrides that fallback (disk takes precedence over embedded).
 // ---------------------------------------------------------------------------
 
-func TestHandlerGetCorrectionsEmpty(t *testing.T) {
+func TestHandlerGetCorrectionsFallsBackToEmbedded(t *testing.T) {
 	old := dataDir
-	dataDir = t.TempDir()
+	dataDir = t.TempDir() // no corrections.csv here → embedded baseline applies
 	t.Cleanup(func() { dataDir = old })
 
 	mux, _, _, _, _ := newTestHandlerMux(t)
@@ -153,8 +158,39 @@ func TestHandlerGetCorrectionsEmpty(t *testing.T) {
 	if err := json.NewDecoder(rec.Body).Decode(&body); err != nil {
 		t.Fatal(err)
 	}
+	if len(body) == 0 {
+		t.Error("expected embedded corrections baseline, got empty")
+	}
+}
+
+func TestHandlerGetCorrectionsDiskOverridesEmbedded(t *testing.T) {
+	dir := t.TempDir()
+	old := dataDir
+	dataDir = dir
+	t.Cleanup(func() { dataDir = old })
+
+	// A header-only corrections.csv on disk represents "user has no
+	// corrections" and must override the embedded baseline.
+	if err := os.WriteFile(
+		filepath.Join(dir, "corrections.csv"),
+		[]byte("web_id,action,co2eq_category,co2eq_name,co2eq_per_kg,weight_kg,notes\n"),
+		0o644,
+	); err != nil {
+		t.Fatal(err)
+	}
+
+	mux, _, _, _, _ := newTestHandlerMux(t)
+	rec := httptest.NewRecorder()
+	mux.ServeHTTP(rec, httptest.NewRequest("GET", "/corrections", nil))
+	if rec.Code != http.StatusOK {
+		t.Fatalf("status %d", rec.Code)
+	}
+	var body []any
+	if err := json.NewDecoder(rec.Body).Decode(&body); err != nil {
+		t.Fatal(err)
+	}
 	if len(body) != 0 {
-		t.Errorf("expected empty corrections, got %d", len(body))
+		t.Errorf("expected empty corrections (disk overrides embedded), got %d", len(body))
 	}
 }
 

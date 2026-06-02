@@ -1,0 +1,3 @@
+# Keeps the embedded/ directory present on a fresh clone so the launcher
+# (//go:embed embedded) compiles. The build scripts add backend.zip and
+# dashboard.zip here at build time; those are git-ignored. See README.md.
