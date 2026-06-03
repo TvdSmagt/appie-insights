@@ -49,31 +49,41 @@ Your AH credentials never leave your machine. The login flow performs the same O
 
 ## Getting started
 
-### With Docker (recommended)
+### Easiest: download a release (no install, no dependencies)
 
-**Prerequisites:** Docker and Docker Compose.
+The simplest way to use the app is to download a prebuilt executable from the [**Releases**](../../releases) page. Pick the one for your OS (Windows `.exe`, macOS, or Linux), then run it — it's a **single double-clickable executable** that bundles both the backend and the dashboard, with nothing to install. It opens the dashboard in your browser; on first run you log in via the Albert Heijn OAuth flow.
+
+### Running from source
+
+If you'd rather run from a clone of the repo, you have two options.
+
+**1. The run script (recommended):**
 
 ```bash
 ./run.sh
 ```
 
-Builds and starts all services, then opens the dashboard at `http://localhost:8501`. On first run, the dashboard will prompt you to log in; clicking the button opens an Albert Heijn OAuth flow in your browser. Once authenticated, the backend syncs your receipts and classifies products automatically.
+`run.sh` picks the best available mode automatically: if a compatible toolchain is present (Go 1.23+ and Python 3.12+) it runs the backend and dashboard as native processes; otherwise it falls back to Docker Compose. If neither is available, it tells you what to install. Force a mode with `--local` or `--docker`.
 
-### Without Docker (local)
+It then starts all services and opens the dashboard at `http://localhost:8501`. On first run, the dashboard will prompt you to log in; clicking the button opens an Albert Heijn OAuth flow in your browser. Once authenticated, the backend syncs your receipts and classifies products automatically.
 
-**Prerequisites:** Go 1.23+ and Python 3.12+.
+In local mode, the first run creates a Python virtualenv in `.venv-dashboard/` and installs the dashboard's dependencies. Both processes are stopped together on `Ctrl-C`.
+
+**2. Manual Docker Compose:**
+
+If you prefer to drive Docker yourself instead of via the script:
 
 ```bash
-./run-local.sh
+docker compose up --build
 ```
 
-Runs the Go backend and the Streamlit dashboard as native processes — no containers. On first run it creates a Python virtualenv in `.venv-dashboard/` and installs the dashboard's dependencies. Both processes are stopped together on `Ctrl-C`.
+Then open the dashboard at `http://localhost:8501`.
 
-The two scripts use the same defaults, so they interoperate: data is stored in `data/groceries.db` and your AH token in `~/.config/appie/appie.json`. (Note that the Docker setup keeps the token in a named volume instead — see [Data](#data) — so you may need to log in again the first time you switch between the two.)
+Both run modes use the same defaults, so they interoperate: data is stored in `data/groceries.db` and your AH token in `~/.config/appie/appie.json`. (Note that the Docker setup keeps the token in a named volume instead — see [Data](#data) — so you may need to log in again the first time you switch between the two.)
 
-### As a standalone executable (for non-technical users)
+### Building the release executables yourself
 
-If you want to hand the app to someone who doesn't use Docker or clone repos, you can build a **single double-clickable executable** per OS (Windows `.exe`, macOS, Linux) that bundles both the backend and the dashboard — no install, no dependencies. See [`packaging/`](packaging/README.md). The quickest path on Linux:
+The release binaries are built from [`packaging/`](packaging/README.md). To build one locally on Linux:
 
 ```bash
 ./packaging/scripts/build-linux-docker.sh   # produces dist/appie-insights

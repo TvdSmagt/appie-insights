@@ -18,17 +18,13 @@ Common types: `feat`, `fix`, `refactor`, `doc`, `test`, `chore`.
 
 **Prerequisites:** Docker, Docker Compose, Python 3.11+, Go 1.22+.
 
-Start the services with Docker:
+Start the services:
 
 ```bash
 ./run.sh
 ```
 
-Or run them natively, without Docker (Go 1.23+ and Python 3.12+):
-
-```bash
-./run-local.sh
-```
+`run.sh` auto-detects how to run: native processes when a compatible toolchain is present (Go 1.23+ and Python 3.12+), otherwise Docker Compose. Force a mode with `--local` or `--docker`.
 
 On first run the dashboard will prompt you to log in via the browser OAuth flow.
 

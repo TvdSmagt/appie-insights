@@ -25,7 +25,7 @@ DIST_DIR="$REPO_ROOT/dist"
 
 cd "$REPO_ROOT"
 
-# --- Version stamp (matches run.sh / run-local.sh) ---------------------------
+# --- Version stamp (matches run.sh) ------------------------------------------
 # Prefer the exact tag when HEAD is tagged (release builds): this avoids a
 # spurious "-dirty" suffix from CI checkouts where line-ending normalization
 # marks tracked files as modified. Fall back to the dirty-aware describe for
