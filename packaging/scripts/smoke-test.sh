@@ -28,11 +28,13 @@ cleanup() {
   # native PID is unreliable, so prefer taskkill /T to take down the tree.
   if [ -n "${PID:-}" ]; then
     if command -v taskkill >/dev/null 2>&1; then
+      # taskkill reaps the native process tree out-of-band; a bash `wait` on
+      # the PID afterwards can block forever in Git Bash, so don't wait here.
       taskkill //T //F //PID "$PID" >/dev/null 2>&1 || true
     elif kill -0 "$PID" 2>/dev/null; then
       kill "$PID" 2>/dev/null || true
+      wait "$PID" 2>/dev/null || true
     fi
-    wait "$PID" 2>/dev/null || true
   fi
   rm -f "$LOG"
 }
