@@ -210,6 +210,10 @@ def render_cost_co2_chart(df: pd.DataFrame) -> None:
         height=320,
         template=get_plotly_template(),
     )
+    # Force a categorical x-axis so bars are evenly spaced. Without this, Plotly
+    # may auto-detect the date-like labels as a continuous time axis (platform
+    # dependent), bunching the bars together.
+    fig.update_xaxes(type="category")
     fig.update_yaxes(title_text="Cost (€)", secondary_y=False)
     fig.update_yaxes(title_text=_CO2EQ_KG, secondary_y=True)
     st.plotly_chart(fig, width="stretch")

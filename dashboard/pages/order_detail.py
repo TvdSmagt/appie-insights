@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from backend_client import get_order_detail
+from formatting import format_date
 
 
 def order_detail() -> None:
@@ -23,7 +24,7 @@ def order_detail() -> None:
 
     delivery_date = pd.to_datetime(detail["delivery_date"], errors="coerce")
     with col_title:
-        st.subheader(f"{delivery_date.strftime('%-d %B %Y')} — € {detail['total_price']:.2f}")
+        st.subheader(f"{format_date(delivery_date, '%d %B %Y')} — € {detail['total_price']:.2f}")
 
     address_street = detail.get("address_street", "")
     if address_street:

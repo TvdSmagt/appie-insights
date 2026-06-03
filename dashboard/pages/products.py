@@ -3,6 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 from loaders import load_products
+from formatting import format_date
 import re
 
 from backend_client import (
@@ -248,7 +249,7 @@ def page_product() -> None:
         pcols[2].metric("Total Spent", f"€ {total_spent:.2f}")
 
         display = all_purchases.copy()
-        display["date"] = display["date"].dt.strftime("%-d %b %Y")
+        display["date"] = format_date(display["date"])
         st.dataframe(
             display.rename(
                 columns={"date": "Date", "description": "Description", "quantity": "Quantity", "amount": "Amount (€)", "source": "Source"}

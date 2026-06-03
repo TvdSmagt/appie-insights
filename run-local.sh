@@ -71,12 +71,19 @@ echo "Building backend ..."
 (cd backend && go build -ldflags "-X main.Version=$VERSION" -o backend .)
 
 # --- Start backend -----------------------------------------------------------
-# Defaults (DB_PATH, ENRICHMENT_DATA_DIR, CONFIG_PATH) are already local-friendly;
-# we only override the port.
+# The backend runs from inside backend/ (so SIGINT from the cleanup trap reaches
+# the binary directly). That changes the working directory, so the relative
+# DB_PATH / ENRICHMENT_DATA_DIR defaults would resolve wrongly (e.g. the
+# enrichment data dir would become backend/backend/data and enrichment would
+# fail, leaving CO₂eq empty). Pin them to absolute repo paths instead.
+REPO_ROOT="$PWD"
 echo "Starting backend ..."
 (
   cd backend
-  BACKEND_PORT="$BACKEND_PORT" exec ./backend
+  BACKEND_PORT="$BACKEND_PORT" \
+  DB_PATH="$REPO_ROOT/data/groceries.db" \
+  ENRICHMENT_DATA_DIR="$REPO_ROOT/backend/data" \
+    exec ./backend
 ) &
 BACKEND_PID=$!
 
@@ -102,9 +109,8 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-# Open the dashboard in the default browser once it's likely up.
-sleep 2
-xdg-open "http://localhost:$DASHBOARD_PORT" 2>/dev/null || open "http://localhost:$DASHBOARD_PORT" 2>/dev/null || true
+# Streamlit opens the browser itself on startup, so we don't open one here
+# (doing both spawned two tabs).
 
 # Wait for either process; if one dies, exit (cleanup stops the other).
 wait -n "$BACKEND_PID" "$DASHBOARD_PID"

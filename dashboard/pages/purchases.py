@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from backend_client import get_orders, get_sync_status
+from formatting import format_date
 from loaders import load_receipts
 from pages.order_detail import order_detail
 from pages.receipt_detail import receipt_detail
@@ -65,7 +66,7 @@ def _purchase_list() -> None:
         receipts["matched_pct"] = (
             receipts["matched_count"] / receipts["item_count"].clip(lower=1) * 100
         ).round(0).astype(int).astype(str) + "%"
-        receipts["date_fmt"] = pd.to_datetime(receipts["date"], errors="coerce").dt.strftime("%-d %b %Y")
+        receipts["date_fmt"] = format_date(receipts["date"])
         r = receipts.rename(columns={"transaction_id": "id", "total_amount": "total", "co2eq_total": "co2eq",
                                       "weight_total": "weight", "discount_total": "discount"})
         r["type"] = "🏪 In-Store"
@@ -79,7 +80,7 @@ def _purchase_list() -> None:
         orders["matched_pct"] = (
             orders["matched_count"] / orders["item_count"].clip(lower=1) * 100
         ).round(0).astype(int).astype(str) + "%"
-        orders["date_fmt"] = orders["delivery_date"].dt.strftime("%-d %b %Y")
+        orders["date_fmt"] = format_date(orders["delivery_date"])
         o = orders.rename(columns={"order_id": "id", "delivery_date": "date", "total_price": "total", "co2eq_total": "co2eq",
                                     "weight_total": "weight", "discount_total": "discount"})
         o["type"] = orders["delivery_method"].apply(_order_type)

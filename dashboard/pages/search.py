@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from backend_client import search_all
+from formatting import format_date
 
 
 def page_search() -> None:
@@ -65,7 +66,7 @@ def page_search() -> None:
         if receipt_items.empty:
             st.info("No receipt items found.")
         else:
-            receipt_items["date"] = pd.to_datetime(receipt_items["date"], errors="coerce").dt.strftime("%-d %b %Y")
+            receipt_items["date"] = format_date(receipt_items["date"])
             st.dataframe(
                 receipt_items.rename(
                     columns={
@@ -85,7 +86,7 @@ def page_search() -> None:
         if order_items.empty:
             st.info("No order items found.")
         else:
-            order_items["delivery_date"] = pd.to_datetime(order_items["delivery_date"], errors="coerce").dt.strftime("%-d %b %Y")
+            order_items["delivery_date"] = format_date(order_items["delivery_date"])
             st.dataframe(
                 order_items.rename(
                     columns={

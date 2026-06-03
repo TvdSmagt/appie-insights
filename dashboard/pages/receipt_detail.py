@@ -3,6 +3,7 @@ import streamlit as st
 
 from loaders import load_receipt_items
 from backend_client import get_receipt_detail, run_enrichment_with_progress
+from formatting import format_date
 
 
 def receipt_detail() -> None:
@@ -21,7 +22,7 @@ def receipt_detail() -> None:
     if detail:
         date = pd.to_datetime(detail["date"], errors="coerce")
         with col_title:
-            st.subheader(f"{date.strftime('%-d %B %Y')} — € {detail['total_amount']:.2f}")
+            st.subheader(f"{format_date(date, '%d %B %Y')} — € {detail['total_amount']:.2f}")
 
     items = load_receipt_items(receipt_id)
 

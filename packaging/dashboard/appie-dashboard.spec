@@ -33,7 +33,11 @@ binaries = []
 hiddenimports = []
 
 # Streamlit: pull in everything (metadata, static assets, submodules).
-for pkg in ("streamlit",):
+# charset_normalizer is requests' character-detection dependency; it loads a
+# compiled submodule dynamically, so PyInstaller misses it unless collected
+# explicitly — without it the frozen app emits a RequestsDependencyWarning
+# ("Unable to find acceptable character detection dependency") at startup.
+for pkg in ("streamlit", "charset_normalizer"):
     d, b, h = collect_all(pkg)
     datas += d
     binaries += b
@@ -48,6 +52,9 @@ for pkg in (
     "altair",
     "numpy",
     "requests",
+    # requests probes this via importlib.metadata to pick a charset detector;
+    # without its metadata it warns even when the package itself is bundled.
+    "charset_normalizer",
 ):
     try:
         datas += copy_metadata(pkg)
