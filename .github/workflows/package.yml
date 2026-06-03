@@ -62,6 +62,13 @@ jobs:
         shell: pwsh
         run: .\packaging\scripts\build-windows.ps1
 
+      # Prove the freshly built single-file binary actually runs on this OS:
+      # launch it headless, wait for the bundled backend + dashboard to come up
+      # and answer HTTP, then shut it down. Fails the job if it doesn't.
+      - name: Smoke-test binary
+        shell: bash
+        run: bash packaging/scripts/smoke-test.sh "${{ matrix.bin }}"
+
       - name: Rename artifact
         shell: bash
         run: |

@@ -255,6 +255,12 @@ func waitForHTTP(ctx context.Context, url string, timeout time.Duration) error {
 }
 
 func openBrowser(url string) {
+	// Allow headless runs (CI smoke tests, servers) to skip launching a
+	// browser, which would otherwise fail or hang on a runner with no GUI.
+	if os.Getenv("APPIE_NO_BROWSER") != "" {
+		log.Printf("APPIE_NO_BROWSER set; not opening a browser. Visit %s", url)
+		return
+	}
 	var cmd string
 	var args []string
 	switch runtime.GOOS {
