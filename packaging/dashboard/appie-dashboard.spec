@@ -16,6 +16,7 @@
 # launcher to embed.
 
 import os
+import sys
 from PyInstaller.utils.hooks import (
     collect_all,
     collect_data_files,
@@ -74,6 +75,13 @@ hiddenimports += [
     "streamlit.runtime.scriptrunner.magic_funcs",
 ]
 
+# Stripping shared libraries is a sizeable size win on Linux/macOS, but on
+# Windows the `strip` on PATH (MinGW/Git binutils) mangles PE DLLs — notably
+# pythonXY.dll — producing a runtime "Failed to load Python DLL / LoadLibrary:
+# Invalid access to memory location" when the frozen app starts. So only strip
+# off Windows.
+STRIP = sys.platform != "win32"
+
 block_cipher = None
 
 a = Analysis(
@@ -125,10 +133,11 @@ exe = EXE(
     bootloader_ignore_signals=False,
     # Strip debug symbols from bundled binaries — a sizeable, low-risk win
     # across the many .so files (libarrow alone drops ~11 MB). Requires `strip`
-    # (binutils) on PATH, which the build environments provide. UPX is left off:
-    # it trips macOS Gatekeeper and some Windows antivirus, which is the wrong
-    # trade-off for "hand it to a friend".
-    strip=True,
+    # (binutils) on PATH, which the Unix build environments provide. Disabled on
+    # Windows (see STRIP above). UPX is left off: it trips macOS Gatekeeper and
+    # some Windows antivirus, which is the wrong trade-off for "hand it to a
+    # friend".
+    strip=STRIP,
     upx=False,
     console=True,
 )
@@ -138,7 +147,7 @@ coll = COLLECT(
     a.binaries,
     a.zipfiles,
     a.datas,
-    strip=True,
+    strip=STRIP,
     upx=False,
     name="appie-dashboard",
 )

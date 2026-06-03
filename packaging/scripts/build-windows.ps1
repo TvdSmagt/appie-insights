@@ -24,7 +24,12 @@ $EmbeddedDir = Join-Path $LauncherDir "embedded"
 Set-Location $RepoRoot
 
 # --- Version stamp ----------------------------------------------------------
-$Version = (git describe --tags --dirty 2>$null)
+# Prefer the exact tag when HEAD is tagged (release builds): this avoids a
+# spurious "-dirty" suffix from CI checkouts where line-ending normalization
+# marks tracked files as modified. Fall back to the dirty-aware describe for
+# untagged/local builds.
+$Version = (git describe --tags --exact-match 2>$null)
+if (-not $Version) { $Version = (git describe --tags --dirty 2>$null) }
 if (-not $Version) {
     $Commit = (git rev-parse --short HEAD 2>$null)
     if ($Commit) { $Version = "prerelease+$Commit" } else { $Version = "development" }

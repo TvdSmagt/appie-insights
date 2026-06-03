@@ -26,7 +26,12 @@ DIST_DIR="$REPO_ROOT/dist"
 cd "$REPO_ROOT"
 
 # --- Version stamp (matches run.sh / run-local.sh) ---------------------------
-if VERSION=$(git describe --tags --dirty 2>/dev/null); then :;
+# Prefer the exact tag when HEAD is tagged (release builds): this avoids a
+# spurious "-dirty" suffix from CI checkouts where line-ending normalization
+# marks tracked files as modified. Fall back to the dirty-aware describe for
+# untagged/local builds.
+if VERSION=$(git describe --tags --exact-match 2>/dev/null); then :;
+elif VERSION=$(git describe --tags --dirty 2>/dev/null); then :;
 elif COMMIT=$(git rev-parse --short HEAD 2>/dev/null); then VERSION="prerelease+$COMMIT";
 else VERSION="development"; fi
 
